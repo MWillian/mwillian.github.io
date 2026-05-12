@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/projects/index.html</loc>
-    <lastmod>2026-05-12T19:13:36.984Z</lastmod>
+    <lastmod>2026-05-12T21:04:35.711Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/about/about.html</loc>
@@ -26,6 +26,10 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/projects/assista-junto/index.html</loc>
-    <lastmod>2026-05-12T20:09:02.505Z</lastmod>
+    <lastmod>2026-05-12T21:04:26.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/projects/deliver-tracking/index.html</loc>
+    <lastmod>2026-05-12T21:06:41.043Z</lastmod>
   </url>
 </urlset>

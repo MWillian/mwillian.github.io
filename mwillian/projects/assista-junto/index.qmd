@@ -2,7 +2,7 @@
 title: "Assista Junto"
 subtitle: "Sincronização de mídia em tempo real para experiências compartilhadas."
 date: "2024-11-15"
-categories: [Ativo, .NET, SignalR, PostgreSQL, Blazor]
+categories: [Concluído, .NET, PostgreSQL, Blazor]
 about:
   template: solana
   links:
@@ -16,7 +16,7 @@ about:
 
 ::: {.callout-note icon=false}
 ## Status do Projeto: **Ativo / Manutenção**
-Este projeto está em constante evolução. Desenvolvido em colaboração com [Matheus Rodrigues](https://github.com/ttMath).
+Projeto colaborativo desenvolvido para criação de software Web de gestão de salas interativas para assistir videos online.
 :::
 
 

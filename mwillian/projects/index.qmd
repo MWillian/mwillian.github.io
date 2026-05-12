@@ -2,17 +2,20 @@
 title: "Projetos"
 subtitle: "Uma vitrine das soluções que desenvolvi, explorando multiplas Stacks, e seguindo práticas de desenvolvimento como Clean Architecture, DDD, e sistemas em tempo real."
 listing:
-  contents: 
-    - "mw-solucoes/index.qmd"
-    - "assista-junto/index.qmd"
-    - "medcon/index.qmd"
-  type: grid 
-  sort: "date desc" 
-  categories: true 
-  sort-ui: false
-  filter-ui: true
-  fields: [image, title, description, categories]
-  feed: true
+  - id: palestras
+    contents: "*/index.qmd"
+    type: default 
+    fields: [date, image, title, description, categories]
+    sort: "date desc" 
+    categories: true 
+    sort-ui: true
+    filter-ui: true
+    page-size: 10
+
+page-layout: full
+title-block-banner: false
+toc: true
+editor: source
 ---
 
 Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.

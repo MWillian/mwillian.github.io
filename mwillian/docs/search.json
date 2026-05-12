@@ -46,7 +46,7 @@
     "href": "projects/index.html",
     "title": "Projetos",
     "section": "",
-    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nAtivo\n\n.NET\n\nSignalR\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery Tracking API\n\n\n\nEm desenvolvimento\n\nNode.js\n\nExpress\n\nPrisma\n\nSSR\n\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nAtivo\n\n.NET\n\nSignalR\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/about.html",
@@ -67,14 +67,14 @@
     "href": "projects/assista-junto/index.html",
     "title": "Assista Junto",
     "section": "",
-    "text": "Note🛠️ Status do Projeto: Ativo / Manutenção\n\n\n\nEste projeto está em constante evolução. Desenvolvido em colaboração com Matheus Rodrigues."
+    "text": "NoteStatus do Projeto: Ativo / Manutenção\n\n\n\nProjeto colaborativo desenvolvido para criação de software Web de gestão de salas interativas para assistir videos online."
   },
   {
     "objectID": "projects/assista-junto/index.html#o-projeto",
     "href": "projects/assista-junto/index.html#o-projeto",
     "title": "Assista Junto",
-    "section": "📺 O Projeto",
-    "text": "📺 O Projeto\nO Assista Junto surgiu para resolver uma limitação comum em plataformas de comunicação: a dessincronização ao assistir vídeos em grupo. Diferente de um “Watch Together” por compartilhamento de tela, nossa solução controla as instâncias locais do player em cada cliente, economizando banda e garantindo a máxima qualidade individual de imagem.\nEste projeto, desenvolvido de forma colaborativa com o Matheus Rodrigues, surgiu de uma necessidade comum: assistir vídeos em grupo enquanto permanecia em ligações com outras pessoas, o que permitia interação em tempo real para todos. Normalmente utilizávamos alguns plugins nativos de plataformas como o Discord, mas até essas possuem limitações de reprodução.\nDiferente de uma simples transmissão de tela, esta solução controla as instâncias locais do player em cada cliente, economizando largura de banda e garantindo a melhor qualidade de imagem possível para todos os participantes."
+    "section": "O Projeto",
+    "text": "O Projeto\nO Assista Junto surgiu para resolver uma limitação comum em plataformas de comunicação: a dessincronização ao assistir vídeos em grupo. Diferente de um “Watch Together” por compartilhamento de tela, nossa solução controla as instâncias locais do player em cada cliente, economizando banda e garantindo a máxima qualidade individual de imagem.\nO objetivo principal era assistir vídeos em grupo enquanto permanecia em ligações com outras pessoas, o que permitia interação em tempo real para todos. Normalmente utilizávamos alguns plugins nativos de plataformas como o Discord, mas até essas possuem limitações de reprodução.\nDiferente de uma simples transmissão de tela, esta solução controla as instâncias locais do player em cada cliente, economizando largura de banda e garantindo a melhor qualidade de imagem possível para todos os participantes."
   },
   {
     "objectID": "projects/assista-junto/index.html#o-acesso-a-plataforma",
@@ -110,5 +110,47 @@
     "title": "Assista Junto",
     "section": "O que aprendi com este projeto?",
     "text": "O que aprendi com este projeto?\nEste projeto foi fundamental para consolidar meus conhecimentos em sistemas orientados a eventos. Aprendi a lidar com estados globais compartilhados e a importância de uma comunicação leve e rápida entre cliente e servidor para evitar o “atraso de sincronia”, algo que incomoda muito em aplicações de mídia.\n\n\nStatus do Projeto: Ativo / Manutenção de novas funcionalidades."
+  },
+  {
+    "objectID": "projects/deliver-tracking/index.html",
+    "href": "projects/deliver-tracking/index.html",
+    "title": "Delivery Tracking API",
+    "section": "",
+    "text": "NoteStatus do Projeto: Ativo / Em desenvolvimento\n\n\n\nEste projeto acadêmico foi desenvolvido para explorar padrões de arquitetura avançados no ecossistema Node.js, com foco em escalabilidade e manutenção de software."
+  },
+  {
+    "objectID": "projects/deliver-tracking/index.html#o-projeto",
+    "href": "projects/deliver-tracking/index.html#o-projeto",
+    "title": "Delivery Tracking API",
+    "section": "O Projeto",
+    "text": "O Projeto\nA Deliver Tracking API foi concebida para gerenciar fluxos logísticos complexos. O sistema permite o controle total sobre motoristas e entregas, garantindo que cada etapa do transporte seja documentada e validada conforme regras de negócio rigorosas.\nO foco principal deste desenvolvimento foi a aplicação de Padrões Arquiteturais (Design Patterns) e princípios de desenvolvimento de software. Diferente de um CRUD comum, esta aplicação utiliza uma estrutura em camadas que separa as responsabilidades de entrada, processamento e persistência de dados."
+  },
+  {
+    "objectID": "projects/deliver-tracking/index.html#o-acesso-a-plataforma",
+    "href": "projects/deliver-tracking/index.html#o-acesso-a-plataforma",
+    "title": "Delivery Tracking API",
+    "section": "O acesso a plataforma",
+    "text": "O acesso a plataforma\nA aplicação possui uma interface administrativa robusta renderizada via Server-Side Rendering (SSR). Ao acessar a rota /painel, o gestor é apresentado a uma tela inicial no formato de dashborad intuitivo.\n\n\n\n\n\n\n\nPainel Administrativo: Visão geral dos números do sistema.\n\n\nPara as entregas, é possível realizar sua consulta por filtros específicos, assim como criação de novas entregas, com validações de origem e destino.\n\n\n\n\n\n\n\nPainel de Entregas: Visão geral dos números das entregas.\n\n\nAs entregas tem seu estado gerenciado por meio de uma interface específica que permite sua manipulação.\n\n\n\n\n\n\n\nGestão de Entregas: Manipulação do estado.\n\n\nA criação das entregas ocorre por meio de um formulário simples.\n\n\n\n\n\n\n\nGestão de Entregas: Manipulação do estado.\n\n\nNa gestão dos motoristas, é possível realizar a gestão dos registros, assim como sua consulta, por meio de interfaces semelhantes as das entregas.\n\n\n\n\n\n\n\nGestão de Motoristas: Interface para controle de dados cadastrais e veículos.\n\n\nA criação de motoristas segue uma interface semelhante a da criação de entregas.\n\n\n\n\n\n\n\nCriação de Motoristas: Criação de registros de motoristas.\n\n\nUm motorista pode ser atribuído para uma entrega, o uqe cria uma relação direta.\n\n\n\n\n\n\n\nAtribuição de Motoristas: Relação de motorista com entrega.\n\n\nPor fim, o sistema também fornece relatórios automáticos que quantificam a eficiência da operação, mostrando quantas entregas foram concluídas ou canceladas em um determinado período.\n\n\n\n\n\n\n\nRelatórios Operacionais: Gráficos e contadores de status de entregas."
+  },
+  {
+    "objectID": "projects/deliver-tracking/index.html#funcionalidades-principais",
+    "href": "projects/deliver-tracking/index.html#funcionalidades-principais",
+    "title": "Delivery Tracking API",
+    "section": "Funcionalidades Principais",
+    "text": "Funcionalidades Principais\n\nGestão completa de motoristas (Cadastro, Listagem e Inativação).\nMáquina de estados para entregas (CRIADA, EM_TRANSITO, ENTREGUE, CANCELADA).\nRegistro automático de histórico de eventos para cada mudança de status.\nPainel administrativo (SSR) integrado para gestão visual.\nAPI REST documentada para integrações externas.\nFiltros avançados e paginação em rotas de listagem."
+  },
+  {
+    "objectID": "projects/deliver-tracking/index.html#stack-tecnológica",
+    "href": "projects/deliver-tracking/index.html#stack-tecnológica",
+    "title": "Delivery Tracking API",
+    "section": "Stack Tecnológica",
+    "text": "Stack Tecnológica\n\n\n\nFrontend (SSR)\nEJS (Template Engine), CSS3, Bootstrap.\n\n\n\n\nBackend\nNode.js, Express.\n\n\nPersistência & ORM\nPrisma ORM, SQLite.\n\n\nArquitetura\nRepository Pattern, Inversão de Dependência (DI).\n\n\nPadronização\nEJS &lt;–&gt; Controller -&gt; Service -&gt; Repository."
+  },
+  {
+    "objectID": "projects/deliver-tracking/index.html#desafios-técnicos-soluções",
+    "href": "projects/deliver-tracking/index.html#desafios-técnicos-soluções",
+    "title": "Delivery Tracking API",
+    "section": "Desafios Técnicos & Soluções",
+    "text": "Desafios Técnicos & Soluções\n\n1. Inversão de Dependência e Desacoplamento\nGarantir que a lógica de negócio (Services) não dependesse diretamente da implementação do banco de dados foi um ponto crucial. Implementação da Inversão de Dependência via interfaces/contratos. O serviço recebe o repositório através do construtor, o que permite que a infraestrutura (Prisma/SQLite) possa ser substituída por qualquer outro banco ou ORM sem alterar uma única linha da regra de negócio.\n\n\n2. Consistência na Máquina de Estados\nImpedir que uma entrega pulasse etapas (ex: de “Criada” direto para “Entregue” sem passar por “Em Trânsito”) era vital para a integridade do sistema. Criação de camadas de validação nos Services que utilizam códigos de status específicos, como o HTTP 422 (Unprocessable Entity). Cada transição é validada antes de ser persistida, e qualquer tentativa de quebra de fluxo dispara um erro semântico detalhado.\n\n\n3. Histórico de Eventos Automatizado\nManter um log de quem fez o quê e quando, sem sobrecarregar o código do controlador. Estruturamos a persistência para que, a cada mudança de estado da entrega, um registro no HistoricoEntregas seja criado automaticamente dentro da transação do banco de dados. Isso garante auditabilidade do processo logístico."
   }
 ]
