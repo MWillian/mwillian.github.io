@@ -1,0 +1,33 @@
+---
+title: "Sobre Mim"
+about:
+  template: trestles
+  image: profile.jpeg
+  links:
+    - icon: file-earmark-pdf
+      text: Currículo (PDF)
+      href: curriculo.pdf 
+---
+
+## Minha Jornada
+
+Atualmente cursando **Sistemas de Informação no IFAL**, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.  
+
+### Experiência Técnica
+
+No backend, possuo domínio em **C# e .NET**, desenvolvendo APIs estruturadas e integradas a bancos de dados **PostgreSQL**.  Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando **Angular**, garantindo uma experiência de usuário fluida e integrada. 
+
+### Perfil Profissional
+
+Sou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo **SENAC/AL** em Manutenção e Suporte em Informática. 
+
+---
+
+### Formação Acadêmica
+
+* **Bacharelado em Sistemas de Informação** | IFAL (2023 - Atual)  
+* **Técnico em Manutenção e Suporte em Informática** | SENAC/AL (Concluído em 2024)  
+
+### Idiomas
+
+* **Inglês**: Nível Intermediário (Autodidata).  

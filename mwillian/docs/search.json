@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matheus Willian",
+    "section": "",
+    "text": "Bem-vindo ao meu espaço digital. Sou um desenvolvedor apaixonado por arquitetura limpa e soluções escaláveis.\nExploro o equilíbrio entre o backend robusto com .NET e o frontend dinâmico com Angular.\nVer Projetos | Ler sobre minha trajetória"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html#sobre-mim",
+    "href": "index.html#sobre-mim",
+    "title": "Matheus Willian",
+    "section": "",
+    "text": "Olá! Sou Matheus Willian, desenvolvedor baseado em Maceió, AL. Atualmente, curso Bacharelado em Sistemas de Informação no IFAL e atuo como Desenvolvedor Fullstack Freelancer.\nMeu foco está na construção de aplicações robustas e escaláveis, utilizando Clean Architecture para garantir código de alta qualidade e fácil manutenção.\n\n\n\n\n\n\nCategoria\nFerramentas\n\n\n\n\nLinguagens\nC#, Java, Python, SQL, PostgreSQL\n\n\nFrameworks\n.NET (8/10), Angular, Blazor, Bootstrap\n\n\nArquitetura\nClean Architecture, API REST, Git Workflow\n\n\nDesign\nFigma (Prototipagem de alta fidelidade)\n\n\n\n\n\n\n\n\n\nDesenvolvimento de um ecossistema completo com .NET 10 e Angular, focado em escalabilidade e separação de responsabilidades.\n\n\n\nUma aplicação interativa para sincronizar o consumo de vídeos em tempo real, demonstrando habilidades em lógica de eventos e APIs externas.\n\n\n\nSistema acadêmico para gerenciamento de clínicas médicas, aplicando padrões de Orientação a Objetos em Java.\n\n\n\n\n\n\nGraduação: Sistemas de Informação - Instituto Federal de Alagoas (IFAL).\n\nTécnico: Manutenção e Suporte em Informática - SENAC/AL.\n\nIdiomas: Inglês (Nível Intermediário Autodidata).\n\n\n\n“Transformando lógica em soluções escaláveis.”"
+  },
+  {
+    "objectID": "about.html#minha-jornada",
+    "href": "about.html#minha-jornada",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projetos",
+    "section": "",
+    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nAtivo\n\n.NET\n\nSignalR\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+  },
+  {
+    "objectID": "about/about.html#minha-jornada",
+    "href": "about/about.html#minha-jornada",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html",
+    "href": "projects/assista-junto/index.html",
+    "title": "Assista Junto",
+    "section": "",
+    "text": "Note🛠️ Status do Projeto: Ativo / Manutenção\n\n\n\nEste projeto está em constante evolução. Desenvolvido em colaboração com Matheus Rodrigues."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html#o-projeto",
+    "href": "projects/assista-junto/index.html#o-projeto",
+    "title": "Assista Junto",
+    "section": "📺 O Projeto",
+    "text": "📺 O Projeto\nO Assista Junto surgiu para resolver uma limitação comum em plataformas de comunicação: a dessincronização ao assistir vídeos em grupo. Diferente de um “Watch Together” por compartilhamento de tela, nossa solução controla as instâncias locais do player em cada cliente, economizando banda e garantindo a máxima qualidade individual de imagem.\nEste projeto, desenvolvido de forma colaborativa com o Matheus Rodrigues, surgiu de uma necessidade comum: assistir vídeos em grupo enquanto permanecia em ligações com outras pessoas, o que permitia interação em tempo real para todos. Normalmente utilizávamos alguns plugins nativos de plataformas como o Discord, mas até essas possuem limitações de reprodução.\nDiferente de uma simples transmissão de tela, esta solução controla as instâncias locais do player em cada cliente, economizando largura de banda e garantindo a melhor qualidade de imagem possível para todos os participantes."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html#o-acesso-a-plataforma",
+    "href": "projects/assista-junto/index.html#o-acesso-a-plataforma",
+    "title": "Assista Junto",
+    "section": "O acesso a plataforma",
+    "text": "O acesso a plataforma\nAo acessar o site, a tela inicial é exibida, solicitando a inserção de um apelido para ser utilizado durante a permanência da plataforma.\n\n\n\n\n\n\n\nTela Inicial: Interface simples e intuitiva para identificação do usuário.\n\n\nApós inserir um apelido, o usuário é redirecionado para a tela de criação de sala.\nObs: só é possível criar 3 salas por cada usuário, as salas são removidas após 3 minutos de inatividade.\n\n\n\n\n\n\n\nCriação de sala: Modal para nome e possível senha.\n\n\nCom a sala criada, o usuário pode inserir o link do video ou playlist, e a reprodução será iniciada. Além disso, é possível manipular a forma de inserir os videos, no começo ou fim da playlist, ou após o video atual, além de reordenar a lista de forma aleatória. O chat em tempo real também emite notificações para os usuário que estão presentes na sala.\n\n\n\n\n\n\n\nSala interativa: Sala pronta para utilização do grupo."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html#funcionalidades-principais",
+    "href": "projects/assista-junto/index.html#funcionalidades-principais",
+    "title": "Assista Junto",
+    "section": "Funcionalidades Principais",
+    "text": "Funcionalidades Principais\n\nLogin dinâmico para acesso rápido.\nSincronização em tempo real de Play, Pause e Seek para todos na sala.\nPlaylist colaborativa com links do YouTube (vídeos e playlists).\nChat em sala para comunicação instantânea entre participantes.\nRemoção automática de salas inativas após 3 minutos sem atividade.\nCriação de salas automáticas após o login."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html#stack-tecnológica",
+    "href": "projects/assista-junto/index.html#stack-tecnológica",
+    "title": "Assista Junto",
+    "section": "Stack Tecnológica",
+    "text": "Stack Tecnológica\n\n\n\nFrontend\nHTML5, CSS3, Javascript, Boostrap, Blazor.\n\n\n\n\nBackend\n.NET Web API, EF Core\n\n\nComunicação\nSignalR para troca de mensagens bidirecional em tempo real.\n\n\nIntegração\nYouTube IFrame Player API para controle granular do conteúdo.\n\n\nBanco de Dados:\nPostgreSQL."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html#desafios-técnicos-soluções",
+    "href": "projects/assista-junto/index.html#desafios-técnicos-soluções",
+    "title": "Assista Junto",
+    "section": "Desafios Técnicos & Soluções",
+    "text": "Desafios Técnicos & Soluções\n\n1. O Problema da Latência de Rede\nO maior desafio foi garantir que ações como Play, Pause e Seek fossem replicadas instantaneamente. Utilizamos o SignalR para criar um túnel de comunicação persistente. Implementamos uma lógica de Broadcast seletivo, onde o servidor gerencia grupos (salas) e replica os estados do player apenas para os membros ativos, mitigando gargalos de rede e garantindo que todos os usuários estejam no mesmo timestamp do vídeo.\n\n\n2. Concorrência e Múltiplas Inserções no PostgreSQL\nCom múltiplos usuários adicionando vídeos e enviando mensagens no chat simultaneamente, a consistência dos dados era crítica. Estruturamos a camada de persistência com EF Core e PostgreSQL para lidar com inserções concorrentes na playlist colaborativa. Implementamos transações para garantir que a ordem da playlist e o histórico do chat permanecessem íntegros, mesmo sob alta frequência de requisições.\n\n\n3. Gerenciamento de Ciclo de Vida via Worker Service\nManter salas vazias ativas consumiria recursos desnecessários de memória e processamento. Desenvolvemos um Background Service (Worker Service) que roda em segundo plano na API. Este serviço monitora periodicamente o timestamp da última atividade de cada sala. Caso uma sala fique inativa por mais de 3 minutos, o Worker executa automaticamente o cleanup, removendo os dados temporários do banco e encerrando as conexões pendentes."
+  },
+  {
+    "objectID": "projects/assista-junto/index.html#o-que-aprendi-com-este-projeto",
+    "href": "projects/assista-junto/index.html#o-que-aprendi-com-este-projeto",
+    "title": "Assista Junto",
+    "section": "O que aprendi com este projeto?",
+    "text": "O que aprendi com este projeto?\nEste projeto foi fundamental para consolidar meus conhecimentos em sistemas orientados a eventos. Aprendi a lidar com estados globais compartilhados e a importância de uma comunicação leve e rápida entre cliente e servidor para evitar o “atraso de sincronia”, algo que incomoda muito em aplicações de mídia.\n\n\nStatus do Projeto: Ativo / Manutenção de novas funcionalidades."
+  }
+]

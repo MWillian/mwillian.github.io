@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Matheus Willian</title>
+<link>https://your-website-url.example.com/projects/</link>
+<atom:link href="https://your-website-url.example.com/projects/index.xml" rel="self" type="application/rss+xml"/>
+<description>Matheus Willian - Dev</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Fri, 15 Nov 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Assista Junto</title>
+  <link>https://your-website-url.example.com/projects/assista-junto/</link>
+  <description><![CDATA[ 
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>🛠️ Status do Projeto: <strong>Ativo / Manutenção</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Este projeto está em constante evolução. Desenvolvido em colaboração com <a href="https://github.com/ttMath">Matheus Rodrigues</a>.</p>
+</div>
+</div>
+<section id="o-projeto" class="level2">
+<h2 data-anchor-id="o-projeto">📺 O Projeto</h2>
+<p>O <strong>Assista Junto</strong> surgiu para resolver uma limitação comum em plataformas de comunicação: a dessincronização ao assistir vídeos em grupo. Diferente de um “Watch Together” por compartilhamento de tela, nossa solução controla as instâncias locais do player em cada cliente, economizando banda e garantindo a máxima qualidade individual de imagem.</p>
+<p>Este projeto, desenvolvido de forma colaborativa com o <a href="https://github.com/ttMath">Matheus Rodrigues</a>, surgiu de uma necessidade comum: assistir vídeos em grupo enquanto permanecia em ligações com outras pessoas, o que permitia interação em tempo real para todos. Normalmente utilizávamos alguns plugins nativos de plataformas como o Discord, mas até essas possuem limitações de reprodução.</p>
+<p>Diferente de uma simples transmissão de tela, esta solução controla as instâncias locais do player em cada cliente, economizando largura de banda e garantindo a melhor qualidade de imagem possível para todos os participantes.</p>
+<hr>
+</section>
+<section id="o-acesso-a-plataforma" class="level2">
+<h2 data-anchor-id="o-acesso-a-plataforma">O acesso a plataforma</h2>
+<p>Ao acessar o <a href="assistajunto.com.br">site</a>, a tela inicial é exibida, solicitando a inserção de um apelido para ser utilizado durante a permanência da plataforma.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="telainicial.png" class="lightbox" data-gallery="gallery" title="Tela Inicial: Interface simples e intuitiva para identificação do usuário."><img src="https://your-website-url.example.com/projects/assista-junto/telainicial.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Tela Inicial: Interface simples e intuitiva para identificação do usuário."></a></p>
+</figure>
+</div>
+<figcaption><strong>Tela Inicial:</strong> Interface simples e intuitiva para identificação do usuário.</figcaption>
+</figure>
+</div>
+<p>Após inserir um apelido, o usuário é redirecionado para a tela de criação de sala.<br>
+Obs: só é possível criar 3 salas por cada usuário, as salas são removidas após 3 minutos de inatividade.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="criacao.png" class="lightbox" data-gallery="gallery" title="Criação de sala: Modal para nome e possível senha."><img src="https://your-website-url.example.com/projects/assista-junto/criacao.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Criação de sala: Modal para nome e possível senha."></a></p>
+</figure>
+</div>
+<figcaption><strong>Criação de sala:</strong> Modal para nome e possível senha.</figcaption>
+</figure>
+</div>
+<p>Com a sala criada, o usuário pode inserir o link do video ou playlist, e a reprodução será iniciada. Além disso, é possível manipular a forma de inserir os videos, no começo ou fim da playlist, ou após o video atual, além de reordenar a lista de forma aleatória. O chat em tempo real também emite notificações para os usuário que estão presentes na sala.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="sala.png" class="lightbox" data-gallery="gallery" title="Sala interativa: Sala pronta para utilização do grupo."><img src="https://your-website-url.example.com/projects/assista-junto/sala.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Sala interativa: Sala pronta para utilização do grupo."></a></p>
+</figure>
+</div>
+<figcaption><strong>Sala interativa:</strong> Sala pronta para utilização do grupo.</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="funcionalidades-principais" class="level2">
+<h2 data-anchor-id="funcionalidades-principais">Funcionalidades Principais</h2>
+<ul>
+<li>Login dinâmico para acesso rápido.</li>
+<li>Sincronização em tempo real de Play, Pause e Seek para todos na sala.</li>
+<li>Playlist colaborativa com links do YouTube (vídeos e playlists).</li>
+<li>Chat em sala para comunicação instantânea entre participantes.</li>
+<li>Remoção automática de salas inativas após 3 minutos sem atividade.</li>
+<li>Criação de salas automáticas após o login.</li>
+</ul>
+<hr>
+</section>
+<section id="stack-tecnológica" class="level2">
+<h2 data-anchor-id="stack-tecnológica">Stack Tecnológica</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Frontend</strong></th>
+<th>HTML5, CSS3, Javascript, Boostrap, Blazor.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Backend</strong></td>
+<td>.NET Web API, EF Core</td>
+</tr>
+<tr class="even">
+<td><strong>Comunicação</strong></td>
+<td>SignalR para troca de mensagens bidirecional em tempo real.</td>
+</tr>
+<tr class="odd">
+<td><strong>Integração</strong></td>
+<td>YouTube IFrame Player API para controle granular do conteúdo.</td>
+</tr>
+<tr class="even">
+<td><strong>Banco de Dados:</strong></td>
+<td>PostgreSQL.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="desafios-técnicos-soluções" class="level2">
+<h2 data-anchor-id="desafios-técnicos-soluções">Desafios Técnicos &amp; Soluções</h2>
+<section id="o-problema-da-latência-de-rede" class="level3">
+<h3 data-anchor-id="o-problema-da-latência-de-rede">1. O Problema da Latência de Rede</h3>
+<p>O maior desafio foi garantir que ações como <code>Play</code>, <code>Pause</code> e <code>Seek</code> fossem replicadas instantaneamente. Utilizamos o <strong>SignalR</strong> para criar um túnel de comunicação persistente. Implementamos uma lógica de <em>Broadcast</em> seletivo, onde o servidor gerencia grupos (salas) e replica os estados do player apenas para os membros ativos, mitigando gargalos de rede e garantindo que todos os usuários estejam no mesmo <em>timestamp</em> do vídeo.</p>
+</section>
+<section id="concorrência-e-múltiplas-inserções-no-postgresql" class="level3">
+<h3 data-anchor-id="concorrência-e-múltiplas-inserções-no-postgresql">2. Concorrência e Múltiplas Inserções no PostgreSQL</h3>
+<p>Com múltiplos usuários adicionando vídeos e enviando mensagens no chat simultaneamente, a consistência dos dados era crítica. Estruturamos a camada de persistência com <strong>EF Core</strong> e <strong>PostgreSQL</strong> para lidar com inserções concorrentes na playlist colaborativa. Implementamos transações para garantir que a ordem da playlist e o histórico do chat permanecessem íntegros, mesmo sob alta frequência de requisições.</p>
+</section>
+<section id="gerenciamento-de-ciclo-de-vida-via-worker-service" class="level3">
+<h3 data-anchor-id="gerenciamento-de-ciclo-de-vida-via-worker-service">3. Gerenciamento de Ciclo de Vida via Worker Service</h3>
+<p>Manter salas vazias ativas consumiria recursos desnecessários de memória e processamento. Desenvolvemos um <strong>Background Service (Worker Service)</strong> que roda em segundo plano na API. Este serviço monitora periodicamente o timestamp da última atividade de cada sala. Caso uma sala fique inativa por mais de <strong>3 minutos</strong>, o Worker executa automaticamente o <em>cleanup</em>, removendo os dados temporários do banco e encerrando as conexões pendentes.</p>
+
+
+</section>
+</section>
+ ]]></description>
+  <category>Ativo</category>
+  <category>.NET</category>
+  <category>SignalR</category>
+  <category>PostgreSQL</category>
+  <category>Blazor</category>
+  <guid>https://your-website-url.example.com/projects/assista-junto/</guid>
+  <pubDate>Fri, 15 Nov 2024 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
