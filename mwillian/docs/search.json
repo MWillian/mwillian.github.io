@@ -46,7 +46,7 @@
     "href": "projects/index.html",
     "title": "Projetos",
     "section": "",
-    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery Tracking API\n\n\n\nEm desenvolvimento\n\nNode.js\n\nExpress\n\nPrisma\n\nSSR\n\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nAtivo\n\n.NET\n\nSignalR\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\nNo matching items"
+    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMEDCON: Centralizador de Consultas\n\n\n\nAcadêmico\n\nJava\n\nOOP\n\nSQLite\n\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery Tracking API\n\n\n\nEm desenvolvimento\n\nNode.js\n\nExpress\n\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nConcluído\n\n.NET\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/about.html",
@@ -144,7 +144,7 @@
     "href": "projects/deliver-tracking/index.html#stack-tecnológica",
     "title": "Delivery Tracking API",
     "section": "Stack Tecnológica",
-    "text": "Stack Tecnológica\n\n\n\nFrontend (SSR)\nEJS (Template Engine), CSS3, Bootstrap.\n\n\n\n\nBackend\nNode.js, Express.\n\n\nPersistência & ORM\nPrisma ORM, SQLite.\n\n\nArquitetura\nRepository Pattern, Inversão de Dependência (DI).\n\n\nPadronização\nEJS &lt;–&gt; Controller -&gt; Service -&gt; Repository."
+    "text": "Stack Tecnológica\n\n\n\nFrontend\nEJS (Template Engine), CSS3, Bootstrap.\n\n\n\n\nBackend\nNode.js, Express.\n\n\nPersistência & ORM\nPrisma ORM, SQLite.\n\n\nArquitetura\nRepository Pattern, Inversão de Dependência (DI).\n\n\nPadronização\nEJS &lt;–&gt; Controller -&gt; Service -&gt; Repository."
   },
   {
     "objectID": "projects/deliver-tracking/index.html#desafios-técnicos-soluções",
@@ -152,5 +152,40 @@
     "title": "Delivery Tracking API",
     "section": "Desafios Técnicos & Soluções",
     "text": "Desafios Técnicos & Soluções\n\n1. Inversão de Dependência e Desacoplamento\nGarantir que a lógica de negócio (Services) não dependesse diretamente da implementação do banco de dados foi um ponto crucial. Implementação da Inversão de Dependência via interfaces/contratos. O serviço recebe o repositório através do construtor, o que permite que a infraestrutura (Prisma/SQLite) possa ser substituída por qualquer outro banco ou ORM sem alterar uma única linha da regra de negócio.\n\n\n2. Consistência na Máquina de Estados\nImpedir que uma entrega pulasse etapas (ex: de “Criada” direto para “Entregue” sem passar por “Em Trânsito”) era vital para a integridade do sistema. Criação de camadas de validação nos Services que utilizam códigos de status específicos, como o HTTP 422 (Unprocessable Entity). Cada transição é validada antes de ser persistida, e qualquer tentativa de quebra de fluxo dispara um erro semântico detalhado.\n\n\n3. Histórico de Eventos Automatizado\nManter um log de quem fez o quê e quando, sem sobrecarregar o código do controlador. Estruturamos a persistência para que, a cada mudança de estado da entrega, um registro no HistoricoEntregas seja criado automaticamente dentro da transação do banco de dados. Isso garante auditabilidade do processo logístico."
+  },
+  {
+    "objectID": "projects/medcon/index.html",
+    "href": "projects/medcon/index.html",
+    "title": "MEDCON: Centralizador de Consultas",
+    "section": "",
+    "text": "NoteStatus do Projeto: Acadêmico / Finalizado\n\n\n\nEste projeto acadêmico foi desenvolvido para modelar um sistema baseado unicamente em Programação Orientada a Objetos (POO), explorando ao máximo a arquitetura em camadas utilizando puramente a linguagem Java, sem frameworks de abstração web ou ORMs pesados."
+  },
+  {
+    "objectID": "projects/medcon/index.html#o-projeto",
+    "href": "projects/medcon/index.html#o-projeto",
+    "title": "MEDCON: Centralizador de Consultas",
+    "section": "O Projeto",
+    "text": "O Projeto\nO MEDCON consiste no desenvolvimento de uma aplicação em Java para atuar como um centralizador de agendamentos para a rede pública de saúde. O objetivo principal é simular uma plataforma onde cidadãos podem solicitar marcações de consultas e exames em postos de saúde disponíveis na cidade.\nO sistema gerencia a complexidade de alocar pacientes em horários disponíveis de profissionais (médicos, enfermeiros, técnicos), considerando a especialidade necessária, a lotação do profissional (em qual posto ele atende) e a duração do serviço diretamente na grade horária."
+  },
+  {
+    "objectID": "projects/medcon/index.html#arquitetura-e-padrões",
+    "href": "projects/medcon/index.html#arquitetura-e-padrões",
+    "title": "MEDCON: Centralizador de Consultas",
+    "section": "Arquitetura e Padrões",
+    "text": "Arquitetura e Padrões\nNesta aplicação Console, foi estabelecido um padrão de arquitetura em camadas (MVC simplificado) para garantir a separação de responsabilidades e desacoplamento do código:\n\nView (Camada de Apresentação): É responsável pela interação direta e textual com o usuário, simulando os fluxos das telas (MenuAdminView e MenuPacienteView).\nBO - Business Object (Camada de Negócio): Retém o “cérebro” das operações (como AgendamentoBO). Não conhece o banco, apenas valida cálculos de faixas de tempo, conflitos de grade de horário, e elegibilidade.\nVO - Value Object (Objeto de Valor): Objeto puramente estrutural das entidades do sistema para realizar a comunicação segura entre o View, o BO e o DAO.\nDAO - Data Access Object: Única camada responsável pela persistência do sistema através de queries nativas em SQL, em comunicação direta com o banco SQLite gerido via JDBC."
+  },
+  {
+    "objectID": "projects/medcon/index.html#funcionalidades-principais",
+    "href": "projects/medcon/index.html#funcionalidades-principais",
+    "title": "MEDCON: Centralizador de Consultas",
+    "section": "Funcionalidades Principais",
+    "text": "Funcionalidades Principais\n\nModelagem profunda de perfis via Herança (Núcleo de Pessoas: Pacientes X Profissionais da Saúde).\nManutenção fluida da força médica e suas localizações por meio de relacionamentos N:N (Profissionais multilotados em múltiplos Postos de Saúde).\nDefinição de grade horária limitadora (Disponibilidade) para proteção contra o choque de turnos.\nAgendamentos firmados baseados por “Slots” de tempo dependendo do Tipo de Serviço requisitado (Consulta, Raio-X, Exame de rotina, etc.)."
+  },
+  {
+    "objectID": "projects/medcon/index.html#stack-tecnológica",
+    "href": "projects/medcon/index.html#stack-tecnológica",
+    "title": "MEDCON: Centralizador de Consultas",
+    "section": "Stack Tecnológica",
+    "text": "Stack Tecnológica\n\n\n\nLinguagem & Runtime\nJava (JDK 21 puro).\n\n\n\n\nBanco de Dados & Persistência\nSQLite (Arquivo), JDBC nativo.\n\n\nModelagem & Testes\nDBeaver (Modelagem), JUnit & Mockito (Testes e Mocks de Camadas).\n\n\nGerenciamento de Build\nMaven para compilação.\n\n\nArquitetura\nCamadas (View, BO, VO, DAO)."
   }
 ]

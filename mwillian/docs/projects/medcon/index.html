@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-12">
 
-<title>index – Matheus Willian</title>
+<title>MEDCON: Centralizador de Consultas – Matheus Willian</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -123,24 +123,113 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">MEDCON: Centralizador de Consultas</h1>
+<p class="subtitle lead">Sistema de agendamento médico em Java Puro com arquitetura em camadas.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Acadêmico</div>
+    <div class="quarto-category">Java</div>
+    <div class="quarto-category">OOP</div>
+    <div class="quarto-category">SQLite</div>
+  </div>
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 12, 2026</p>
+    </div>
+  </div>
+  </div>
+</header> <div class="about-links">
+  <a href="https://github.com/MWillian/MEDCON_SERVICOS_DE_MARCACAO" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Repositório</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Status do Projeto: <strong>Acadêmico / Finalizado</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Este projeto acadêmico foi desenvolvido para modelar um sistema baseado unicamente em Programação Orientada a Objetos (POO), explorando ao máximo a arquitetura em camadas utilizando puramente a linguagem Java, sem frameworks de abstração web ou ORMs pesados.</p>
+</div>
+</div>
+<section id="o-projeto" class="level2">
+<h2 data-anchor-id="o-projeto">O Projeto</h2>
+<p>O <strong>MEDCON</strong> consiste no desenvolvimento de uma aplicação em Java para atuar como um centralizador de agendamentos para a rede pública de saúde. O objetivo principal é simular uma plataforma onde cidadãos podem solicitar marcações de consultas e exames em postos de saúde disponíveis na cidade.</p>
+<p>O sistema gerencia a complexidade de alocar pacientes em horários disponíveis de profissionais (médicos, enfermeiros, técnicos), considerando a especialidade necessária, a lotação do profissional (em qual posto ele atende) e a duração do serviço diretamente na grade horária.</p>
+<hr>
+</section>
+<section id="arquitetura-e-padrões" class="level2">
+<h2 data-anchor-id="arquitetura-e-padrões">Arquitetura e Padrões</h2>
+<p>Nesta aplicação Console, foi estabelecido um padrão de arquitetura em camadas (MVC simplificado) para garantir a separação de responsabilidades e desacoplamento do código:</p>
+<ul>
+<li><strong>View (Camada de Apresentação):</strong> É responsável pela interação direta e textual com o usuário, simulando os fluxos das telas (<code>MenuAdminView</code> e <code>MenuPacienteView</code>).</li>
+<li><strong>BO - Business Object (Camada de Negócio):</strong> Retém o “cérebro” das operações (como <code>AgendamentoBO</code>). Não conhece o banco, apenas valida cálculos de faixas de tempo, conflitos de grade de horário, e elegibilidade.</li>
+<li><strong>VO - Value Object (Objeto de Valor):</strong> Objeto puramente estrutural das entidades do sistema para realizar a comunicação segura entre o View, o BO e o DAO.</li>
+<li><strong>DAO - Data Access Object:</strong> Única camada responsável pela persistência do sistema através de queries nativas em SQL, em comunicação direta com o banco SQLite gerido via <em>JDBC</em>.</li>
+</ul>
+<hr>
+</section>
+<section id="funcionalidades-principais" class="level2">
+<h2 data-anchor-id="funcionalidades-principais">Funcionalidades Principais</h2>
+<ul>
+<li>Modelagem profunda de perfis via <strong>Herança</strong> (Núcleo de Pessoas: Pacientes X Profissionais da Saúde).</li>
+<li>Manutenção fluida da força médica e suas localizações por meio de relacionamentos N:N (Profissionais multilotados em múltiplos Postos de Saúde).</li>
+<li>Definição de grade horária limitadora (<em>Disponibilidade</em>) para proteção contra o choque de turnos.</li>
+<li>Agendamentos firmados baseados por “Slots” de tempo dependendo do Tipo de Serviço requisitado (Consulta, Raio-X, Exame de rotina, etc.).</li>
+</ul>
+<hr>
+</section>
+<section id="stack-tecnológica" class="level2">
+<h2 data-anchor-id="stack-tecnológica">Stack Tecnológica</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Linguagem &amp; Runtime</strong></th>
+<th>Java (JDK 21 puro).</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Banco de Dados &amp; Persistência</strong></td>
+<td>SQLite (Arquivo), JDBC nativo.</td>
+</tr>
+<tr class="even">
+<td><strong>Modelagem &amp; Testes</strong></td>
+<td>DBeaver (Modelagem), JUnit &amp; Mockito (Testes e Mocks de Camadas).</td>
+</tr>
+<tr class="odd">
+<td><strong>Gerenciamento de Build</strong></td>
+<td>Maven para compilação.</td>
+</tr>
+<tr class="even">
+<td><strong>Arquitetura</strong></td>
+<td>Camadas (View, BO, VO, DAO).</td>
+</tr>
+</tbody>
+</table>
 
 
-
-
-
-
-
-</main> <!-- /main -->
+</section>
+</main></div>
+    </div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

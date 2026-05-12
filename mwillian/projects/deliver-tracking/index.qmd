@@ -2,7 +2,7 @@
 title: "Delivery Tracking API"
 subtitle: "Gestão logística e rastreamento de entregas com arquitetura desacoplada."
 date: "2026-03-30"
-categories: [Em desenvolvimento, Node.js, Express]
+categories: [Acadêmico, Em desenvolvimento, Node.js, Express]
 about:
   template: solana
   links:
@@ -12,7 +12,7 @@ about:
 ---
 
 ::: {.callout-note icon=false}
-## Status do Projeto: **Ativo / Em desenvolvimento**
+## Status do Projeto: **Acadêmico / Em Desenvolvimento**
 Este projeto acadêmico foi desenvolvido para explorar padrões de arquitetura avançados no ecossistema Node.js, com foco em escalabilidade e manutenção de software.
 :::
 

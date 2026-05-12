@@ -1,0 +1,66 @@
+---
+title: "MEDCON: Centralizador de Consultas"
+subtitle: "Sistema de agendamento médico em Java Puro com arquitetura em camadas."
+date: "2026-05-12"
+categories: [Acadêmico, Em desenvolvimento, Java, OOP, SQLite]
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Repositório
+      href: https://github.com/MWillian/MEDCON_SERVICOS_DE_MARCACAO
+---
+
+::: {.callout-note icon=false}
+## Status do Projeto: **Acadêmico / Finalizado**
+Este projeto acadêmico colaborativo foi desenvolvido para modelar um sistema baseado unicamente em Programação Orientada a Objetos (POO), explorando ao máximo a arquitetura em camadas utilizando puramente a linguagem Java, sem frameworks de abstração web ou ORMs pesados.
+:::
+
+## O Projeto
+
+O **MEDCON** consiste no desenvolvimento de uma aplicação em Java para atuar como um centralizador de agendamentos para a rede pública de saúde. O objetivo principal é simular uma plataforma onde cidadãos podem solicitar marcações de consultas e exames em postos de saúde disponíveis na cidade.
+
+O sistema gerencia a complexidade de alocar pacientes em horários disponíveis de profissionais (médicos, enfermeiros, técnicos), considerando a especialidade necessária, a lotação do profissional (em qual posto ele atende) e a duração do serviço diretamente na grade horária.
+
+---
+
+## Arquitetura e Padrões
+
+Nesta aplicação Console, foi estabelecido um padrão de arquitetura em camadas (MVC simplificado) para garantir a separação de responsabilidades e desacoplamento do código:
+
+* **View:** É responsável pela interação direta e textual com o usuário, simulando os fluxos das telas (`MenuAdminView` e `MenuPacienteView`).
+* **BO - Business Object:** Retém o "cérebro" das operações (como `AgendamentoBO`). Não conhece o banco, apenas valida cálculos de faixas de tempo, conflitos de grade de horário, e elegibilidade.
+* **VO - Value Object:** Objeto puramente estrutural das entidades do sistema para realizar a comunicação segura entre o View, o BO e o DAO.
+* **DAO - Data Access Object:** Única camada responsável pela persistência do sistema através de queries nativas em SQL, em comunicação direta com o banco SQLite gerido via *JDBC*.
+
+---
+
+## Funcionalidades Principais
+
+* Modelagem profunda de perfis via **Herança** (Núcleo de Pessoas: Pacientes X Profissionais da Saúde).
+* Manutenção fluida da força médica e suas localizações por meio de relacionamentos N:N (Profissionais multilotados em múltiplos Postos de Saúde).
+* Definição de grade horária limitadora (*Disponibilidade*) para proteção contra o choque de turnos.
+* Agendamentos firmados baseados por "Slots" de tempo dependendo do Tipo de Serviço requisitado (Consulta, Raio-X, Exame de rotina, etc.).
+
+---
+
+## Stack Tecnológica
+
+::: {.list-table}
+
+- - **Linguagem & Runtime**
+  - Java (JDK 21 puro).
+
+- - **Banco de Dados & Persistência**
+  - SQLite (Arquivo), JDBC nativo.
+
+- - **Modelagem & Testes**
+  - DBeaver (Modelagem), JUnit & Mockito (Testes e Mocks de Camadas).
+
+- - **Gerenciamento de Build**
+  - Maven para compilação.
+
+- - **Arquitetura**
+  - Camadas (View, BO, VO, DAO).
+
+:::
