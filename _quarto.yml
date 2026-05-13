@@ -4,7 +4,7 @@ project:
 
 
 website:
-  title: "Matheus Willian"
+  title: "Blog Pessoal"
   site-url: https://mwillian.github.io 
   navbar:
     right:
