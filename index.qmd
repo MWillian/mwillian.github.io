@@ -1,5 +1,5 @@
 ---
-title: "Matheus Willian | Início"
+title: "Início"
 subtitle: "Desenvolvedor Fullstack .NET | Angular | Bacharelando em Sistemas de Informação"
 image: profile.png
 about:
