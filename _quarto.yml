@@ -6,6 +6,7 @@ project:
 website:
   title: "Blog Pessoal"
   site-url: https://mwillian.github.io 
+  favicon: favicon.png
   navbar:
     right:
       - href: index.qmd
