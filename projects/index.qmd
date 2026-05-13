@@ -1,6 +1,6 @@
 ---
 title: "Projetos"
-subtitle: "Uma vitrine das soluções que desenvolvi, explorando multiplas Stacks, e seguindo práticas de desenvolvimento como Clean Architecture, DDD, e sistemas em tempo real."
+subtitle: "Uma exibição das soluções que desenvolvi, explorando multiplas Stacks, e seguindo diferentes práticas de desenvolvimento como Clean Architecture, DDD, e sistemas em tempo real."
 listing:
   - id: palestras
     contents: "*/index.qmd"

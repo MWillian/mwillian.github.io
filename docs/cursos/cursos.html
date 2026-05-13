@@ -93,6 +93,10 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../about/about.html"> 
 <span class="menu-text">Sobre</span></a>
   </li>  
@@ -113,12 +117,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contato</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/MWillian"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/MWillian" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -496,7 +500,7 @@ Engloba conceitos de hardware, montagem de componentes (placa-mãe, processador,
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+        var filterRegex = new RegExp("https:\/\/mwillian\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

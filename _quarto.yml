@@ -4,11 +4,12 @@ project:
 
 
 website:
-  description: "Matheus Willian - Dev"
-  site-url: https://your-website-url.example.com 
   title: "Matheus Willian"
+  site-url: https://mwillian.github.io 
   navbar:
     right:
+      - href: index.qmd
+        text: Início
       - href: about\about.qmd
         text: Sobre
       - href: projects\index.qmd
@@ -21,8 +22,10 @@ website:
         text: Contato
       - icon: github
         href: https://github.com/MWillian
+        target: _blank
       - icon: linkedin
         href: https://linkedin.com
+        target: _blank
 format:
   html:
     theme: darkly  

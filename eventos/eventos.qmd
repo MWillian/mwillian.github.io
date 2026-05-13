@@ -14,7 +14,7 @@ Bem-vindo à minha página de eventos, palestras e atuações na área de tecnol
 
 ::: {.card .shadow-sm}
 ::: {.card-body}
-### <i class="bi bi-calendar-event text-primary"></i> ROGA DX 2025
+### <i class="bi bi-calendar-event text-primary me-2"></i><span class="fw-bolder" style="color: #3bd1ff !important; font-weight: 900 !important;">ROGA DX 2025</span>
 **Data:** 12/09/2025 - 13/09/2025.
 **Descrição:** Participação no evento de tecnologia ROGA DX, ocorrido em Maceió, nos dias 12 e 13 de setembro de 2025. 
 :::
@@ -22,7 +22,7 @@ Bem-vindo à minha página de eventos, palestras e atuações na área de tecnol
 
 ::: {.card .shadow-sm}
 ::: {.card-body}
-### <i class="bi bi-calendar-event text-primary"></i> Membro do Centro Acadêmico de Sistemas de Informação - CASI
+### <i class="bi bi-calendar-event text-primary me-2"></i><span class="fw-bolder" style="color: #3bd1ff !important; font-weight: 900 !important;">Membro do Centro Acadêmico de Sistemas de Informação - CASI</span>
 **Data:** Integralmente em 2024 e 2025.  
 **Descrição:** Atuação como membro da diretoria de comunicação do Centro Acadêmico de Sistemas de Informação (CASI).
 :::
@@ -31,7 +31,7 @@ Bem-vindo à minha página de eventos, palestras e atuações na área de tecnol
 
 ::: {.card .shadow-sm}
 ::: {.card-body}
-### <i class="bi bi-calendar-event text-primary"></i> DevFest Nordeste 2024
+### <i class="bi bi-calendar-event text-primary me-2"></i><span class="fw-bolder" style="color: #3bd1ff !important; font-weight: 900 !important;">DevFest Nordeste 2024</span>
 **Data:** 14/12/2024  
 **Descrição:** Participação no DevFest (Google Developer Groups), ocorrido no SEST/SENAT, Arapiraca/AL. 
 :::
@@ -39,7 +39,7 @@ Bem-vindo à minha página de eventos, palestras e atuações na área de tecnol
 
 ::: {.card .shadow-sm}
 ::: {.card-body}
-### <i class="bi bi-calendar-event text-primary"></i> ROGA DX 2024
+### <i class="bi bi-calendar-event text-primary me-2"></i><span class="fw-bolder" style="color: #3bd1ff !important; font-weight: 900 !important;">ROGA DX 2024</span>
 **Data:** 30/08/2024.  
 **Descrição:** Participação no evento de tecnologia ROGA DX, ocorrido em Maceió, nos dias 30 e 31 de agosto de 2024. 
 :::
@@ -48,7 +48,7 @@ Bem-vindo à minha página de eventos, palestras e atuações na área de tecnol
 
 ::: {.card .shadow-sm}
 ::: {.card-body}
-### <i class="bi bi-calendar-event text-primary"></i> Debian Day
+### <i class="bi bi-calendar-event text-primary me-2"></i><span class="fw-bolder" style="color: #3bd1ff !important; font-weight: 900 !important;">Debian Day</span>
 **Data:** 17/08/2024  
 **Descrição:** Participação no evento de tecnologia Debian Day, localizado no SENAI Poço, Maceió/AL. 
 :::

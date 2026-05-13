@@ -1,17 +1,19 @@
 ---
 title: "Assista Junto"
 subtitle: "Sincronização de mídia em tempo real para experiências compartilhadas."
-date: "2026-02-01"
-categories: [Pessoal, Concluído, .NET, PostgreSQL, Blazor]
+date: "2026-02-02"
+categories: [Pessoal, .NET, PostgreSQL, Blazor]
 about:
   template: solana
   links:
     - icon: github
       text: Repositório
       href: https://github.com/ttMath/assista-junto
+      target: _blank
     - icon: play-circle
       text: Demonstração
       href: https://assistajunto.com.br
+      target: _blank
 ---
 
 ::: {.callout-note icon=false}

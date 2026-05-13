@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-05-12">
+<meta name="dcterms.date" content="2025-12-02">
 
 <title>Servidor de Backup em Rede – Matheus Willian</title>
 <style>
@@ -122,6 +122,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">Sobre</span></a>
   </li>  
@@ -130,16 +134,24 @@ window.Quarto = {
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../cursos/cursos.html"> 
+<span class="menu-text">Cursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../eventos/eventos.html"> 
+<span class="menu-text">Eventos e Atuações</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../contato.html"> 
 <span class="menu-text">Contato</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/MWillian"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/MWillian" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -165,7 +177,6 @@ window.Quarto = {
 <p class="subtitle lead">Solução distribuída de backup em rede utilizando Sockets TCP puros em Python.</p>
   <div class="quarto-categories">
     <div class="quarto-category">Acadêmico</div>
-    <div class="quarto-category">Concluído</div>
     <div class="quarto-category">Python</div>
     <div class="quarto-category">Redes</div>
   </div>
@@ -174,12 +185,12 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 12, 2026</p>
+      <p class="date">December 2, 2025</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://github.com/MWillian/projeto_backup_em_rede" class="about-link" rel="" target="">
+  <a href="https://github.com/MWillian/projeto_backup_em_rede" class="about-link" rel="" target="_blank">
     <i class="bi bi-github"></i>
      <span class="about-link-text">Repositório</span>
   </a>
@@ -410,6 +421,11 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
+<style>
+  .about-image {
+    display: none !important;
+  }
+</style>
 
 
 </section>
@@ -486,7 +502,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+        var filterRegex = new RegExp("https:\/\/mwillian\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -1,66 +1,143 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Matheus Willian",
+    "objectID": "projects/mw-solucoes/index.html",
+    "href": "projects/mw-solucoes/index.html",
+    "title": "MW Soluções API",
     "section": "",
-    "text": "Bem-vindo ao meu espaço digital. Sou um desenvolvedor apaixonado por arquitetura limpa e soluções escaláveis.\nExploro o equilíbrio entre o backend robusto com .NET e o frontend dinâmico com Angular.\nVer Projetos | Ler sobre minha trajetória"
+    "text": "NoteStatus do Projeto: Pessoal / Em Desenvolvimento\n\n\n\nA primeira grande etapa de back-end está 100% concluída. O modelo de dados base está persistido, a lógica central programada e a API funcional com endpoints protegidos e documentados."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
+    "objectID": "projects/mw-solucoes/index.html#o-projeto",
+    "href": "projects/mw-solucoes/index.html#o-projeto",
+    "title": "MW Soluções API",
+    "section": "O Projeto",
+    "text": "O Projeto\nA MW Soluções API é o núcleo de back-end (backend-as-a-service) para uma plataforma robusta de gerenciamento e prestação de serviços de manutenção de microcomputadores. Construída utilizando práticas modernas de engenharia de software e arquitetura em camadas, a API viabiliza o controle desde a oferta de serviços até o acompanhamento em tempo real das manutenções solicitadas.\nO objetivo principal é oferecer uma plataforma intuitiva, limpa, simples e altamente confiável que atua como a ponte de comunicação entre consumidores de serviços de tecnologia (clientes) e os prestadores (técnicos profissionais). Fornecendo total governança de todo o ciclo de vida do serviço: do orçamento e solicitação inicial à conclusão com histórico garantido."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+    "objectID": "projects/mw-solucoes/index.html#perfil-de-acesso-rbac",
+    "href": "projects/mw-solucoes/index.html#perfil-de-acesso-rbac",
+    "title": "MW Soluções API",
+    "section": "Perfil de Acesso (RBAC)",
+    "text": "Perfil de Acesso (RBAC)\nO sistema é estruturado em torno do Controle de Acesso Baseado em Papéis (Role Based Access Control) com perfis distintos:\n\nCliente (Consumidor): Aquele que necessita do reparo e consulta o catálogo de serviços, realiza a abertura de solicitações de reparo e acompanha toda a progressão do atendimento através do histórico detalhado.\nTécnico (Administrador/Prestador): Responsável por operar a plataforma, gerenciar o catálogo de serviços prestados, atualizar o ciclo de vida dos chamados (aceitando, rejeitando, finalizando ou cancelando) e atuando tecnicamente nas necessidades do cliente."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "objectID": "projects/mw-solucoes/index.html#jornadas-e-fluxos-principais",
+    "href": "projects/mw-solucoes/index.html#jornadas-e-fluxos-principais",
+    "title": "MW Soluções API",
+    "section": "Jornadas e Fluxos Principais",
+    "text": "Jornadas e Fluxos Principais\nO projeto está mapeado com regras de negócios complexas que cobrem jornadas ponta a ponta:\n\nGestão de Identidade: Cadastro e autenticação segura de usuários distinguindo os níveis de permissões.\nCatálogo de Serviços (Maintenance Services): O técnico cadastra serviços padronizados (ex: “Formatação”, “Limpeza”, “Troca de HD”), configurando os parâmetros vitais da oferta e sua disponibilidade (Ativar/Desativar).\nAbertura e Evolução de Chamados (Service Requests): O cliente seleciona de 1 a N serviços do catálogo, criando uma requisição unificada.\nGestão de Estado e Rastreabilidade: Os chamados obedecem rigorosas máquinas de estado e validações: Criada ➔ Em Progresso (após aceite do técnico) ➔ Finalizada, Rejeitada ou Cancelada. Todo salto de status gera um registro automático de rastreio (ServiceRequestHistory)."
   },
   {
-    "objectID": "index.html#sobre-mim",
-    "href": "index.html#sobre-mim",
-    "title": "Matheus Willian",
-    "section": "",
-    "text": "Olá! Sou Matheus Willian, desenvolvedor baseado em Maceió, AL. Atualmente, curso Bacharelado em Sistemas de Informação no IFAL e atuo como Desenvolvedor Fullstack Freelancer.\nMeu foco está na construção de aplicações robustas e escaláveis, utilizando Clean Architecture para garantir código de alta qualidade e fácil manutenção.\n\n\n\n\n\n\nCategoria\nFerramentas\n\n\n\n\nLinguagens\nC#, Java, Python, SQL, PostgreSQL\n\n\nFrameworks\n.NET (8/10), Angular, Blazor, Bootstrap\n\n\nArquitetura\nClean Architecture, API REST, Git Workflow\n\n\nDesign\nFigma (Prototipagem de alta fidelidade)\n\n\n\n\n\n\n\n\n\nDesenvolvimento de um ecossistema completo com .NET 10 e Angular, focado em escalabilidade e separação de responsabilidades.\n\n\n\nUma aplicação interativa para sincronizar o consumo de vídeos em tempo real, demonstrando habilidades em lógica de eventos e APIs externas.\n\n\n\nSistema acadêmico para gerenciamento de clínicas médicas, aplicando padrões de Orientação a Objetos em Java.\n\n\n\n\n\n\nGraduação: Sistemas de Informação - Instituto Federal de Alagoas (IFAL).\n\nTécnico: Manutenção e Suporte em Informática - SENAC/AL.\n\nIdiomas: Inglês (Nível Intermediário Autodidata).\n\n\n\n“Transformando lógica em soluções escaláveis.”"
+    "objectID": "projects/mw-solucoes/index.html#arquitetura-e-engenharia-de-software",
+    "href": "projects/mw-solucoes/index.html#arquitetura-e-engenharia-de-software",
+    "title": "MW Soluções API",
+    "section": "Arquitetura e Engenharia de Software",
+    "text": "Arquitetura e Engenharia de Software\nO projeto foi cuidadosamente desenvolvido aplicando a Clean Architecture (Arquitetura Limpa) orientada a Domain-Driven Design (DDD), garantindo baixo acoplamento e altíssima manutenibilidade. A estrutura divide-se metodicamente em:\n\nApi (MwSolucoes.Api): A camada de apresentação (Controllers e Filtros) que expõe publicamente os endpoints REST.\nApplication (MwSolucoes.Application): Responsável por orquestrar os Casos de Uso (UseCases), lidando com regras lógicas específicas da aplicação. Contém os validadores de regra de negócio, Mappers e orquestração de dependências (Auth, User, ServiceRequest, MaintenanceService).\nDomain (MwSolucoes.Domain): O coração da plataforma. Totalmente agnóstico, contém as Entidades puras (User, MaintenanceService, ServiceRequest, etc.), Enums (níveis de acesso, status, categorias), Value Objects e as Interfaces dos repositórios.\nInfrastructure (MwSolucoes.Infrastructure): Camada de dados e acesso externo. Cuida do Entity Framework Core, DbContexts, migrações para o banco de dados, repositórios de dados reais, geração de Tokens de Segurança e comunicação com APIs externas como validação de CEP via integradores (ICepValidator).\nCommunication (MwSolucoes.Communication): Isola todos os Contratos de API, detendo os objetos de requisições de entrada (Requests) e de respostas de saída (Responses), além do tratamento de dados de paginação.\nException (MwSolucoes.Exception): Camada voltada especificamente para o tratamento padronizado e das respostas de erros globais com recursos localizados (Resource Errors)."
   },
   {
-    "objectID": "about.html#minha-jornada",
-    "href": "about.html#minha-jornada",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+    "objectID": "projects/mw-solucoes/index.html#próximos-passos",
+    "href": "projects/mw-solucoes/index.html#próximos-passos",
+    "title": "MW Soluções API",
+    "section": "Próximos Passos",
+    "text": "Próximos Passos\n\nLançamento do Front-end: Construção da interface gráfica de usuário utilizando Angular e TypeScript, mapeando as telas baseadas nos contratos da Communication.\nIntegração Financeira: Extensão do domínio de requisição de serviços para acoplar Gateways de Pagamentos para acerto automático de valores.\nDevOps e Hospedagem: Conteinerização Dockerizada da aplicação (API e DB) e implantação dos serviços produtivos em uma VPS própria.\nRoteamento Público: Aquisição de Domínio Privado e configuração de certificados SSL para expor a solução mundialmente."
+  },
+  {
+    "objectID": "projects/mw-solucoes/index.html#stack-tecnológica",
+    "href": "projects/mw-solucoes/index.html#stack-tecnológica",
+    "title": "MW Soluções API",
+    "section": "Stack Tecnológica",
+    "text": "Stack Tecnológica\n\n\n\nLinguagem & Framework\nC# e .NET 10 / ASP.NET Core.\n\n\n\n\nPersistência e ORM\nPostgreSQL com Entity Framework Core (Migrations Code-First).\n\n\nAutenticação\nPadrão JWT (JSON Web Token) e Hashing de senhas.\n\n\nPadrões Utilizados\nClean Architecture, Repository Pattern, Dependency Injection (DI), DDD."
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projetos",
     "section": "",
-    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nServidor de Backup em Rede\n\n\n\nAcadêmico\n\nConcluído\n\nPython\n\nRedes\n\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nMEDCON: Centralizador de Consultas\n\n\n\nAcadêmico\n\nEm desenvolvimento\n\nJava\n\nSQLite\n\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nMW Soluções API\n\n\n\nPessoal\n\nEm desenvolvimento\n\n.NET\n\nPostgreSQL\n\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDelivery Tracking API\n\n\n\nAcadêmico\n\nEm desenvolvimento\n\nNode.js\n\nExpress\n\nSQLite\n\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nPessoal\n\nConcluído\n\n.NET\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nFeb 1, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Aqui você encontra uma seleção dos meus principais projetos técnicos. Use os filtros ao lado para navegar por tecnologias específicas.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDelivery Tracking API\n\n\n\nAcadêmico\n\nNode.js\n\nExpress\n\nSQLite\n\n\n\n\n\n\n\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nMW Soluções API\n\n\n\nPessoal\n\n.NET\n\nPostgreSQL\n\n\n\n\n\n\n\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAssista Junto\n\n\n\nPessoal\n\n.NET\n\nPostgreSQL\n\nBlazor\n\n\n\n\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nServidor de Backup em Rede\n\n\n\nAcadêmico\n\nPython\n\nRedes\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMEDCON: Centralizador de Consultas\n\n\n\nAcadêmico\n\nJava\n\nSQLite\n\n\n\n\n\n\n\n\n\nNov 27, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/backup-em-rede/index.html",
+    "href": "projects/backup-em-rede/index.html",
+    "title": "Servidor de Backup em Rede",
+    "section": "",
+    "text": "NoteStatus do Projeto: Acadêmico / Concluído\n\n\n\nEste projeto acadêmico foi desenvolvido para explorar comunicações em rede na camada de transporte. O sistema adota uma arquitetura Cliente-Coordenador-Servidor totalmente desenvolvida utilizando a API nativa de Sockets TCP em Python, lidando com threads e múltiplas portas de conexão simultâneas."
+  },
+  {
+    "objectID": "projects/backup-em-rede/index.html#o-projeto",
+    "href": "projects/backup-em-rede/index.html#o-projeto",
+    "title": "Servidor de Backup em Rede",
+    "section": "O Projeto",
+    "text": "O Projeto\nEste projeto consiste na implementação de uma solução robusta de backup em rede. O objetivo prático é garantir a capacidade de processar múltiplas conexões e requisições concorrentes, permitindo que vários usuários salvem e recuperem arquivos em um ambiente distribuído e particionado.\nA arquitetura da rede é composta por três tipos de atores (nós), cada um com responsabilidades bem definidas:\n\n1. Cliente (Interface do Usuário)\nO Cliente oferece a interface de linha de comando para o usuário, conectando-se ao Coordenador na Porta 10000. Ele é puramente responsável por prover a interação com o usuário humano.\n\nPermite que o usuário defina seu apelido, o IP do Coordenador e o diretório de destino para downloads.\nUpload: Solicita o envio de arquivos e apenas inicia a transferência de bytes após a confirmação de prontidão (UPL_READY), assegurando sincronização.\nDownload: Processa a requisição de download e caso o identificador do arquivo seja inválido ou o servidor não o localize, exibe a mensagem de erro.\n\n\n\n2. Coordenador (Lógica Central)\nO Coordenador é o “cérebro” invisível da aplicação e não interage diretamente com nenhum usuário. Ele atua como ponto central em três portas (999, 10000, 8000), gerenciando de forma assíncrona o tráfego de dados.\n\nBalanceamento de Carga: Retira IPs de servidores de uma fila para efetuar transferências, recolocando-os de volta apenas se o processo concluir com sucesso.\nGerenciamento de Auto-Healing: Realiza ping ativo durante reinicializações. Servidores inativos são tratados como reiniciados, curando a tabela caso reapareçam.\nMapeamento de Metadados: Salva informações e identificadores gerados (em formato JSON persistente), mapeando qual cliente enviou e qual IP guardou o arquivo na nuvem.\n\n\n\n3. Servidor de Arquivo (Armazenamento)\nO Servidor de Arquivos gerencia o espaço em disco isolado e interage ativamente nas portas de serviço 999 e 8000 do Coordenador. * Cadastro: O Servidor anuncia seu IP e existência e fica apto para receber pedaços de rede. * Recebimento e Disposição: Salva os arquivos e gera uma referência em seu log interno servidor_db.json. * Download Destrutivo: Ao entregar o arquivo de volta à rede, apaga completamente o byte da sua memória local e do sistema operacional, inviabilizando clones ou requisições duplicadas."
+  },
+  {
+    "objectID": "projects/backup-em-rede/index.html#canais-de-comunicação",
+    "href": "projects/backup-em-rede/index.html#canais-de-comunicação",
+    "title": "Servidor de Backup em Rede",
+    "section": "Canais de Comunicação",
+    "text": "Canais de Comunicação\nO Coordenador atua como maestro central e opera simultaneamente escutando em três canais de comunicação distintos usando o protocolo TCP:\n\n\n\n\n\n\n\n\n\nCanal\nPorta\nComunicação\nPropósito\n\n\n\n\nControle\n999\nServ. \\(\\leftrightarrow\\) Coord.\nCadastro (CAD_SRV) e descadastro (DESC_SRV) de Servidores de Arquivo (Auto-healing).\n\n\nDados do Cliente\n10000\nCli. \\(\\leftrightarrow\\) Coord.\nProcessamento de requisições de usuário (Upload, Listagem, Download).\n\n\nDados do Servidor\n8000\nCoord. \\(\\leftrightarrow\\) Serv.\nCanal dedicado à transmissão de pacotes de dados binários de arquivos."
+  },
+  {
+    "objectID": "projects/backup-em-rede/index.html#protocolo-de-mensagens-customizado",
+    "href": "projects/backup-em-rede/index.html#protocolo-de-mensagens-customizado",
+    "title": "Servidor de Backup em Rede",
+    "section": "Protocolo de Mensagens Customizado",
+    "text": "Protocolo de Mensagens Customizado\nPara organizar as trocas de informação entre os nós da rede, foi construído e documentado um protocolo próprio de comunicação sobre a persistência dos Sockets. Abaixo estão as tabelas resumidas dos principais comandos:\n\n1. Mensagens de Controle (Porta 999)\n\n\n\n\n\n\n\n\nComando\nSentido\nDescrição\n\n\n\n\nCAD_SRV\nServ \\(\\rightarrow\\) Coord\nCadastro de um servidor na rede.\n\n\nCAD_OK\nCoord \\(\\rightarrow\\) Serv\nConfirmação de cadastro bem-sucedido ou Auto-Healing para recuperação de nós vitais.\n\n\nDESC_SRV\nServ \\(\\rightarrow\\) Coord\nDescadastro voluntário do servidor da lista de disponíveis.\n\n\n\n\n\n2. Mensagens do Cliente (Porta 10000)\n\n\n\n\n\n\n\n\nComando\nSentido\nDescrição\n\n\n\n\nREC_ARQ\nCli \\(\\rightarrow\\) Coord\nCliente solicita o envio de um arquivo acompanhado de seus metadados.\n\n\nUPL_READY\nCoord \\(\\rightarrow\\) Cli\nConfirmação de prontidão (Handshake) do coordenador autorizando o streaming TCP.\n\n\nLIST_ARQ\nCli \\(\\rightarrow\\) Coord\nCliente solicita listar seus arquivos guardados em todos os servidores.\n\n\nDOWN_ARQ\nCli \\(\\rightarrow\\) Coord\nSolicitação de download referenciando o ID de um arquivo alocado no cluster.\n\n\n\n\n\n3. Mensagens de Armazenamento (Porta 8000)\n\n\n\n\n\n\n\n\nComando\nSentido\nDescrição\n\n\n\n\nCMD_SAVE\nCoord \\(\\rightarrow\\) Serv\nCoordenador avisa envio de um arquivo para gravação.\n\n\nRDY_RECV\nServ \\(\\rightarrow\\) Coord\nServidor sinaliza que está pronto para engolir os bytes da via de Transfer.\n\n\nCMD_RECV\nCoord \\(\\rightarrow\\) Serv\nCoordenador dá a ordem de recuperação indicando qual arquivo deverá ser empurrado de volta para o cliente final."
+  },
+  {
+    "objectID": "projects/backup-em-rede/index.html#funcionalidades-de-destaque",
+    "href": "projects/backup-em-rede/index.html#funcionalidades-de-destaque",
+    "title": "Servidor de Backup em Rede",
+    "section": "Funcionalidades de Destaque",
+    "text": "Funcionalidades de Destaque\n\nBalanceamento de Carga: O sistema balanceia requisições de upload de forma igualitária entre os servidores cadastrados. Casos de falha na transferência de um nó final punem o servidor errante retirando-o da rotação temporariamente.\nHandshake de Sincronização Estrito: O streaming de arquivos não é jogado de forma cega na rede. O cliente e o coordenador trocam checagens; os dados pesados apenas fluem perante o envio do UPL_READY (prontidão/handshake), evitando sobrecarga de falhas de buffer.\nAutodestruição: Uma vez que um arquivo recebe o comando de ser baixado de volta, ao finalizar sua extração vinda de um processo CMD_RECV, o servidor hospedeiro apaga a cópia local (formatação seletiva do disco) garantindo segurança em nuvem (simulação Pull-To-Delete)."
+  },
+  {
+    "objectID": "projects/backup-em-rede/index.html#stack-tecnológica",
+    "href": "projects/backup-em-rede/index.html#stack-tecnológica",
+    "title": "Servidor de Backup em Rede",
+    "section": "Stack Tecnológica",
+    "text": "Stack Tecnológica\n\n\n\nLinguagem & Runtime\nPython 3.13 puro, executado nativamente em ambiente Linux.\n\n\n\n\nComunicação em Rede\nIntegrações com a biblioteca socket lidando com o fluxo primário da arquitetura TCP/IP.\n\n\nConcorrência\nUtilização da biblioteca threading garantindo paralelismo, permitindo que vários chamados sejam enfileirados e atendidos sem colapsar os núcleos do modelo.\n\n\nFile System & Persistência\nUtilização padrão das bibliotecas os e sys integradas a serialização efêmera em dicionários .json."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matheus Willian | Início",
+    "section": "",
+    "text": "Bem-vindo ao meu espaço digital. Sou um desenvolvedor apaixonado por trazer ideias para a realidade, e construir soluções para problemas concretos.\nExploro a Tecnologia da Informação de forma holística, me aventurando pelos caminhos que surgirem.\nVer Projetos | Ler sobre minha trajetória"
+  },
+  {
+    "objectID": "cursos/cursos.html",
+    "href": "cursos/cursos.html",
+    "title": "Cursos e Capacitações",
+    "section": "",
+    "text": "Abaixo estão listados os cursos e formações de capacitação que realizei em instituições de ensino e plataformas de tecnologia.\n\n\n\n\n\nProgramador Web\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nPrograma abrangente de formação técnica que cobre HTML, CSS, Lógica de Programação, JavaScript, Banco de Dados e o desenvolvimento de Projetos de Sistemas Web.\n\n\n\n\n200h 15 Jan 2026\n\n\n\n\n\n\n\n\nPHP para Iniciantes\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nFoca nos fundamentos do PHP, ambiente de desenvolvimento, operadores, controle de fluxo, funções, strings, arrays e desenvolvimento de formulários.\n\n\n\n\n30h 08 Jan 2026\n\n\n\n\n\n\n\n\nBanco de Dados: Oracle PL/SQL\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nCobre comandos da linguagem PL/SQL, blocos anônimos, procedures, funções, cursores, exceções, pacotes e triggers.\n\n\n\n\n20h 09 Dez 2025\n\n\n\n\n\n\n\n\nJavaScript: Fundamentos\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nAborda a história e evolução do JavaScript, sintaxe básica, funções, manipulação do DOM, eventos e validação de formulários.\n\n\n\n\n40h 30 Set 2025\n\n\n\n\n\n\n\n\nFundamentos do Suporte Técnico\n\n\nGoogle (via Coursera)\n\n\nCurso focado nos princípios essenciais para atuação em suporte técnico, autorizado pela Google como parte de seus programas de certificados profissionais.\n\n\n\n\n40h 16 Dez 2023\n\n\n\n\n\n\n\n\nEditor de Texto\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nAborda a configuração de páginas, formatação baseada em estilos, uso de imagens, tabelas, sumários e regras da ABNT.\n\n\n\n\n40h 22 Abr 2023\n\n\n\n\n\n\n\n\nInformática Básica\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nIntrodução a processadores de texto, planilhas eletrônicas, apresentações gráficas e ferramentas de acesso à internet.\n\n\n\n\n40h 22 Abr 2023\n\n\n\n\n\n\n\n\nPlanilhas Eletrônicas\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEnsina o uso do LibreOffice, formatação de células, operações matemáticas, funções (média, mediana), gráficos e matrizes.\n\n\n\n\n40h 19 Abr 2023\n\n\n\n\n\n\n\n\nGestão Financeira\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nConceitos fundamentais de gestão financeira, planejamento de decisões, fontes de recursos e gestão de capital de giro.\n\n\n\n\n30h 18 Abr 2023\n\n\n\n\n\n\n\n\nAdministração de Recursos Humanos\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nTrata da evolução e objetivos do RH, políticas e estratégias, planejamento de RH e comunicação interpessoal nas organizações.\n\n\n\n\n40h 29 Mar 2023\n\n\n\n\n\n\n\n\nIntrodução à Logística\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEvolução da logística, atividades primárias (transportes, estoques) e de apoio (armazenagem, compras), além de tendências como a Logística 4.0.\n\n\n\n\n40h 27 Mar 2023\n\n\n\n\n\n\n\n\nSegurança no Trabalho e Eletricidade Básica\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nIntrodução à segurança ocupacional, normas regulamentadoras e conceitos básicos de eletricidade (tensão, corrente, resistência, Lei de Ohm).\n\n\n\n\n40h 13 Dez 2022\n\n\n\n\n\n\n\n\nManutenção de Computadores\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEngloba conceitos de hardware, montagem de componentes (placa-mãe, processador, memórias), limpeza e diagnósticos de defeitos de hardware.\n\n\n\n\n60h 12 Dez 2022"
   },
   {
     "objectID": "about/about.html",
     "href": "about/about.html",
     "title": "Sobre Mim",
     "section": "",
-    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+    "text": "Currículo (PDF)\n  \n  \n    \n     Lattes\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \n\n\nAtualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo desenvolvimento de software, possuo domínio na linguagem C# e ambiente .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando os frameworks Angular e Blazor, garantindo uma experiência de usuário fluida e integrada. Além do conhecimento em desenvolvimento, também possuo experiência em infraestrutura e suporte de T.I, em atuações com suporte de campo."
   },
   {
     "objectID": "about/about.html#minha-jornada",
     "href": "about/about.html#minha-jornada",
     "title": "Sobre Mim",
     "section": "",
-    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo backend, possuo domínio em C# e .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados PostgreSQL. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando Angular, garantindo uma experiência de usuário fluida e integrada.\n\n\n\nSou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo SENAC/AL em Manutenção e Suporte em Informática.\n\n\n\n\n\nBacharelado em Sistemas de Informação | IFAL (2023 - Atual)\n\nTécnico em Manutenção e Suporte em Informática | SENAC/AL (Concluído em 2024)\n\n\n\n\n\nInglês: Nível Intermediário (Autodidata)."
+    "text": "Atualmente cursando Sistemas de Informação no IFAL, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.\n\n\nNo desenvolvimento de software, possuo domínio na linguagem C# e ambiente .NET, desenvolvendo APIs estruturadas e integradas a bancos de dados. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando os frameworks Angular e Blazor, garantindo uma experiência de usuário fluida e integrada. Além do conhecimento em desenvolvimento, também possuo experiência em infraestrutura e suporte de T.I, em atuações com suporte de campo."
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Vamos Conversar?\nTem interesse em discutir sobre arquitetura de software, oportunidades de trabalho, projetos open-source ou apenas trocar ideias sobre tecnologia? Fique à vontade para me enviar uma mensagem!\nEste formulário é destinado a contatos profissionais e colaborações no desenvolvimento.\n Outros canais de comunicação:\n\n\n contato.mwno@gmail.com\n\n\n GitHub\n\n\n LinkedIn\n\n\n\n\n\n\n\n\n\n\n  \n  \n    Nome\n    \n  \n  \n  \n    E-mail\n    \n  \n  \n  \n    Mensagem\n    \n  \n  \n  \n    \n       Enviar Mensagem"
+  },
+  {
+    "objectID": "eventos/eventos.html",
+    "href": "eventos/eventos.html",
+    "title": "Eventos e Atuações",
+    "section": "",
+    "text": "Bem-vindo à minha página de eventos, palestras e atuações na área de tecnologia. Abaixo estão listados os principais eventos em que participei.\n\nEventos e Conferências\n\n\n\n\n\nROGA DX 2025\nData: 12/09/2025 - 13/09/2025. Descrição: Participação no evento de tecnologia ROGA DX, ocorrido em Maceió, nos dias 12 e 13 de setembro de 2025.\n\n\n\n\nMembro do Centro Acadêmico de Sistemas de Informação - CASI\nData: Integralmente em 2024 e 2025.\nDescrição: Atuação como membro da diretoria de comunicação do Centro Acadêmico de Sistemas de Informação (CASI).\n\n\n\n\nDevFest Nordeste 2024\nData: 14/12/2024\nDescrição: Participação no DevFest (Google Developer Groups), ocorrido no SEST/SENAT, Arapiraca/AL.\n\n\n\n\nROGA DX 2024\nData: 30/08/2024.\nDescrição: Participação no evento de tecnologia ROGA DX, ocorrido em Maceió, nos dias 30 e 31 de agosto de 2024.\n\n\n\n\nDebian Day\nData: 17/08/2024\nDescrição: Participação no evento de tecnologia Debian Day, localizado no SENAI Poço, Maceió/AL."
   },
   {
     "objectID": "projects/assista-junto/index.html",
@@ -103,13 +180,6 @@
     "title": "Assista Junto",
     "section": "Desafios Técnicos & Soluções",
     "text": "Desafios Técnicos & Soluções\n\n1. O Problema da Latência de Rede\nO maior desafio foi garantir que ações como Play, Pause e Seek fossem replicadas instantaneamente. Utilizamos o SignalR para criar um túnel de comunicação persistente. Implementamos uma lógica de Broadcast seletivo, onde o servidor gerencia grupos (salas) e replica os estados do player apenas para os membros ativos, mitigando gargalos de rede e garantindo que todos os usuários estejam no mesmo timestamp do vídeo.\n\n\n2. Concorrência e Múltiplas Inserções no PostgreSQL\nCom múltiplos usuários adicionando vídeos e enviando mensagens no chat simultaneamente, a consistência dos dados era crítica. Estruturamos a camada de persistência com EF Core e PostgreSQL para lidar com inserções concorrentes na playlist colaborativa. Implementamos transações para garantir que a ordem da playlist e o histórico do chat permanecessem íntegros, mesmo sob alta frequência de requisições.\n\n\n3. Gerenciamento de Ciclo de Vida via Worker Service\nManter salas vazias ativas consumiria recursos desnecessários de memória e processamento. Desenvolvemos um Background Service (Worker Service) que roda em segundo plano na API. Este serviço monitora periodicamente o timestamp da última atividade de cada sala. Caso uma sala fique inativa por mais de 3 minutos, o Worker executa automaticamente o cleanup, removendo os dados temporários do banco e encerrando as conexões pendentes."
-  },
-  {
-    "objectID": "projects/assista-junto/index.html#o-que-aprendi-com-este-projeto",
-    "href": "projects/assista-junto/index.html#o-que-aprendi-com-este-projeto",
-    "title": "Assista Junto",
-    "section": "O que aprendi com este projeto?",
-    "text": "O que aprendi com este projeto?\nEste projeto foi fundamental para consolidar meus conhecimentos em sistemas orientados a eventos. Aprendi a lidar com estados globais compartilhados e a importância de uma comunicação leve e rápida entre cliente e servidor para evitar o “atraso de sincronia”, algo que incomoda muito em aplicações de mídia.\n\n\nStatus do Projeto: Ativo / Manutenção de novas funcionalidades."
   },
   {
     "objectID": "projects/deliver-tracking/index.html",
@@ -187,131 +257,5 @@
     "title": "MEDCON: Centralizador de Consultas",
     "section": "Stack Tecnológica",
     "text": "Stack Tecnológica\n\n\n\nLinguagem & Runtime\nJava (JDK 21 puro).\n\n\n\n\nBanco de Dados & Persistência\nSQLite (Arquivo), JDBC nativo.\n\n\nModelagem & Testes\nDBeaver (Modelagem), JUnit & Mockito (Testes e Mocks de Camadas).\n\n\nGerenciamento de Build\nMaven para compilação.\n\n\nArquitetura\nCamadas (View, BO, VO, DAO)."
-  },
-  {
-    "objectID": "projects/backup-em-rede/index.html",
-    "href": "projects/backup-em-rede/index.html",
-    "title": "Servidor de Backup em Rede",
-    "section": "",
-    "text": "NoteStatus do Projeto: Acadêmico / Concluído\n\n\n\nEste projeto acadêmico foi desenvolvido para explorar comunicações em rede na camada de transporte. O sistema adota uma arquitetura Cliente-Coordenador-Servidor totalmente desenvolvida utilizando a API nativa de Sockets TCP em Python, lidando com threads e múltiplas portas de conexão simultâneas."
-  },
-  {
-    "objectID": "projects/backup-em-rede/index.html#o-projeto",
-    "href": "projects/backup-em-rede/index.html#o-projeto",
-    "title": "Servidor de Backup em Rede",
-    "section": "O Projeto",
-    "text": "O Projeto\nEste projeto consiste na implementação de uma solução robusta de backup em rede. O objetivo prático é garantir a capacidade de processar múltiplas conexões e requisições concorrentes, permitindo que vários usuários salvem e recuperem arquivos em um ambiente distribuído e particionado.\nA arquitetura da rede é composta por três tipos de atores (nós), cada um com responsabilidades bem definidas:\n\n1. Cliente (Interface do Usuário)\nO Cliente oferece a interface de linha de comando para o usuário, conectando-se ao Coordenador na Porta 10000. Ele é puramente responsável por prover a interação com o usuário humano.\n\nPermite que o usuário defina seu apelido, o IP do Coordenador e o diretório de destino para downloads.\nUpload: Solicita o envio de arquivos e apenas inicia a transferência de bytes após a confirmação de prontidão (UPL_READY), assegurando sincronização.\nDownload: Processa a requisição de download e caso o identificador do arquivo seja inválido ou o servidor não o localize, exibe a mensagem de erro.\n\n\n\n2. Coordenador (Lógica Central)\nO Coordenador é o “cérebro” invisível da aplicação e não interage diretamente com nenhum usuário. Ele atua como ponto central em três portas (999, 10000, 8000), gerenciando de forma assíncrona o tráfego de dados.\n\nBalanceamento de Carga: Retira IPs de servidores de uma fila para efetuar transferências, recolocando-os de volta apenas se o processo concluir com sucesso.\nGerenciamento de Auto-Healing: Realiza ping ativo durante reinicializações. Servidores inativos são tratados como reiniciados, curando a tabela caso reapareçam.\nMapeamento de Metadados: Salva informações e identificadores gerados (em formato JSON persistente), mapeando qual cliente enviou e qual IP guardou o arquivo na nuvem.\n\n\n\n3. Servidor de Arquivo (Armazenamento)\nO Servidor de Arquivos gerencia o espaço em disco isolado e interage ativamente nas portas de serviço 999 e 8000 do Coordenador. * Cadastro: O Servidor anuncia seu IP e existência e fica apto para receber pedaços de rede. * Recebimento e Disposição: Salva os arquivos e gera uma referência em seu log interno servidor_db.json. * Download Destrutivo: Ao entregar o arquivo de volta à rede, apaga completamente o byte da sua memória local e do sistema operacional, inviabilizando clones ou requisições duplicadas."
-  },
-  {
-    "objectID": "projects/backup-em-rede/index.html#canais-de-comunicação",
-    "href": "projects/backup-em-rede/index.html#canais-de-comunicação",
-    "title": "Servidor de Backup em Rede",
-    "section": "Canais de Comunicação",
-    "text": "Canais de Comunicação\nO Coordenador atua como maestro central e opera simultaneamente escutando em três canais de comunicação distintos usando o protocolo TCP:\n\n\n\n\n\n\n\n\n\nCanal\nPorta\nComunicação\nPropósito\n\n\n\n\nControle\n999\nServ. \\(\\leftrightarrow\\) Coord.\nCadastro (CAD_SRV) e descadastro (DESC_SRV) de Servidores de Arquivo (Auto-healing).\n\n\nDados do Cliente\n10000\nCli. \\(\\leftrightarrow\\) Coord.\nProcessamento de requisições de usuário (Upload, Listagem, Download).\n\n\nDados do Servidor\n8000\nCoord. \\(\\leftrightarrow\\) Serv.\nCanal dedicado à transmissão de pacotes de dados binários de arquivos."
-  },
-  {
-    "objectID": "projects/backup-em-rede/index.html#protocolo-de-mensagens-customizado",
-    "href": "projects/backup-em-rede/index.html#protocolo-de-mensagens-customizado",
-    "title": "Servidor de Backup em Rede",
-    "section": "Protocolo de Mensagens Customizado",
-    "text": "Protocolo de Mensagens Customizado\nPara organizar as trocas de informação entre os nós da rede, foi construído e documentado um protocolo próprio de comunicação sobre a persistência dos Sockets. Abaixo estão as tabelas resumidas dos principais comandos:\n\n1. Mensagens de Controle (Porta 999)\n\n\n\n\n\n\n\n\nComando\nSentido\nDescrição\n\n\n\n\nCAD_SRV\nServ \\(\\rightarrow\\) Coord\nCadastro de um servidor na rede.\n\n\nCAD_OK\nCoord \\(\\rightarrow\\) Serv\nConfirmação de cadastro bem-sucedido ou Auto-Healing para recuperação de nós vitais.\n\n\nDESC_SRV\nServ \\(\\rightarrow\\) Coord\nDescadastro voluntário do servidor da lista de disponíveis.\n\n\n\n\n\n2. Mensagens do Cliente (Porta 10000)\n\n\n\n\n\n\n\n\nComando\nSentido\nDescrição\n\n\n\n\nREC_ARQ\nCli \\(\\rightarrow\\) Coord\nCliente solicita o envio de um arquivo acompanhado de seus metadados.\n\n\nUPL_READY\nCoord \\(\\rightarrow\\) Cli\nConfirmação de prontidão (Handshake) do coordenador autorizando o streaming TCP.\n\n\nLIST_ARQ\nCli \\(\\rightarrow\\) Coord\nCliente solicita listar seus arquivos guardados em todos os servidores.\n\n\nDOWN_ARQ\nCli \\(\\rightarrow\\) Coord\nSolicitação de download referenciando o ID de um arquivo alocado no cluster.\n\n\n\n\n\n3. Mensagens de Armazenamento (Porta 8000)\n\n\n\n\n\n\n\n\nComando\nSentido\nDescrição\n\n\n\n\nCMD_SAVE\nCoord \\(\\rightarrow\\) Serv\nCoordenador avisa envio de um arquivo para gravação.\n\n\nRDY_RECV\nServ \\(\\rightarrow\\) Coord\nServidor sinaliza que está pronto para engolir os bytes da via de Transfer.\n\n\nCMD_RECV\nCoord \\(\\rightarrow\\) Serv\nCoordenador dá a ordem de recuperação indicando qual arquivo deverá ser empurrado de volta para o cliente final."
-  },
-  {
-    "objectID": "projects/backup-em-rede/index.html#funcionalidades-de-destaque",
-    "href": "projects/backup-em-rede/index.html#funcionalidades-de-destaque",
-    "title": "Servidor de Backup em Rede",
-    "section": "Funcionalidades de Destaque",
-    "text": "Funcionalidades de Destaque\n\nBalanceamento de Carga: O sistema balanceia requisições de upload de forma igualitária entre os servidores cadastrados. Casos de falha na transferência de um nó final punem o servidor errante retirando-o da rotação temporariamente.\nHandshake de Sincronização Estrito: O streaming de arquivos não é jogado de forma cega na rede. O cliente e o coordenador trocam checagens; os dados pesados apenas fluem perante o envio do UPL_READY (prontidão/handshake), evitando sobrecarga de falhas de buffer.\nAutodestruição: Uma vez que um arquivo recebe o comando de ser baixado de volta, ao finalizar sua extração vinda de um processo CMD_RECV, o servidor hospedeiro apaga a cópia local (formatação seletiva do disco) garantindo segurança em nuvem (simulação Pull-To-Delete)."
-  },
-  {
-    "objectID": "projects/backup-em-rede/index.html#stack-tecnológica",
-    "href": "projects/backup-em-rede/index.html#stack-tecnológica",
-    "title": "Servidor de Backup em Rede",
-    "section": "Stack Tecnológica",
-    "text": "Stack Tecnológica\n\n\n\nLinguagem & Runtime\nPython 3.13 puro, executado nativamente em ambiente Linux.\n\n\n\n\nComunicação em Rede\nIntegrações com a biblioteca socket lidando com o fluxo primário da arquitetura TCP/IP.\n\n\nConcorrência\nUtilização da biblioteca threading garantindo paralelismo, permitindo que vários chamados sejam enfileirados e atendidos sem colapsar os núcleos do modelo.\n\n\nFile System & Persistência\nUtilização padrão das bibliotecas os e sys integradas a serialização efêmera em dicionários .json."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html",
-    "href": "projects/mw-solucoes/index.html",
-    "title": "MW Soluções API",
-    "section": "",
-    "text": "NoteStatus do Projeto: Pessoal / Em Desenvolvimento\n\n\n\nA primeira grande etapa de back-end está 100% concluída. O modelo de dados base está persistido, a lógica central programada e a API funcional com endpoints protegidos e documentados."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#o-projeto",
-    "href": "projects/mw-solucoes/index.html#o-projeto",
-    "title": "MW Soluções API",
-    "section": "O Projeto",
-    "text": "O Projeto\nA MW Soluções API é o núcleo de back-end (backend-as-a-service) para uma plataforma robusta de gerenciamento e prestação de serviços de manutenção de microcomputadores. Construída utilizando práticas modernas de engenharia de software e arquitetura em camadas, a API viabiliza o controle desde a oferta de serviços até o acompanhamento em tempo real das manutenções solicitadas.\nO objetivo principal é oferecer uma plataforma intuitiva, limpa, simples e altamente confiável que atua como a ponte de comunicação entre consumidores de serviços de tecnologia (clientes) e os prestadores (técnicos profissionais). Fornecendo total governança de todo o ciclo de vida do serviço: do orçamento e solicitação inicial à conclusão com histórico garantido."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#perfil-de-acesso-rbac",
-    "href": "projects/mw-solucoes/index.html#perfil-de-acesso-rbac",
-    "title": "MW Soluções API",
-    "section": "Perfil de Acesso (RBAC)",
-    "text": "Perfil de Acesso (RBAC)\nO sistema é estruturado em torno do Controle de Acesso Baseado em Papéis (Role Based Access Control) com perfis distintos:\n\nCliente (Consumidor): Aquele que necessita do reparo e consulta o catálogo de serviços, realiza a abertura de solicitações de reparo e acompanha toda a progressão do atendimento através do histórico detalhado.\nTécnico (Administrador/Prestador): Responsável por operar a plataforma, gerenciar o catálogo de serviços prestados, atualizar o ciclo de vida dos chamados (aceitando, rejeitando, finalizando ou cancelando) e atuando tecnicamente nas necessidades do cliente."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#jornadas-e-fluxos-principais",
-    "href": "projects/mw-solucoes/index.html#jornadas-e-fluxos-principais",
-    "title": "MW Soluções API",
-    "section": "Jornadas e Fluxos Principais",
-    "text": "Jornadas e Fluxos Principais\nO projeto está mapeado com regras de negócios complexas que cobrem jornadas ponta a ponta:\n\nGestão de Identidade: Cadastro e autenticação segura de usuários distinguindo os níveis de permissões.\nCatálogo de Serviços (Maintenance Services): O técnico cadastra serviços padronizados (ex: “Formatação”, “Limpeza”, “Troca de HD”), configurando os parâmetros vitais da oferta e sua disponibilidade (Ativar/Desativar).\nAbertura e Evolução de Chamados (Service Requests): O cliente seleciona de 1 a N serviços do catálogo, criando uma requisição unificada.\nGestão de Estado e Rastreabilidade: Os chamados obedecem rigorosas máquinas de estado e validações: Criada ➔ Em Progresso (após aceite do técnico) ➔ Finalizada, Rejeitada ou Cancelada. Todo salto de status gera um registro automático de rastreio (ServiceRequestHistory)."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#arquitetura-e-engenharia-de-software",
-    "href": "projects/mw-solucoes/index.html#arquitetura-e-engenharia-de-software",
-    "title": "MW Soluções API",
-    "section": "Arquitetura e Engenharia de Software",
-    "text": "Arquitetura e Engenharia de Software\nO projeto foi cuidadosamente desenvolvido aplicando a Clean Architecture (Arquitetura Limpa) orientada a Domain-Driven Design (DDD), garantindo baixo acoplamento e altíssima manutenibilidade. A estrutura divide-se metodicamente em:\n\nApi (MwSolucoes.Api): A camada de apresentação (Controllers e Filtros) que expõe publicamente os endpoints REST.\nApplication (MwSolucoes.Application): Responsável por orquestrar os Casos de Uso (UseCases), lidando com regras lógicas específicas da aplicação. Contém os validadores de regra de negócio, Mappers e orquestração de dependências (Auth, User, ServiceRequest, MaintenanceService).\nDomain (MwSolucoes.Domain): O coração da plataforma. Totalmente agnóstico, contém as Entidades puras (User, MaintenanceService, ServiceRequest, etc.), Enums (níveis de acesso, status, categorias), Value Objects e as Interfaces dos repositórios.\nInfrastructure (MwSolucoes.Infrastructure): Camada de dados e acesso externo. Cuida do Entity Framework Core, DbContexts, migrações para o banco de dados, repositórios de dados reais, geração de Tokens de Segurança e comunicação com APIs externas como validação de CEP via integradores (ICepValidator).\nCommunication (MwSolucoes.Communication): Isola todos os Contratos de API, detendo os objetos de requisições de entrada (Requests) e de respostas de saída (Responses), além do tratamento de dados de paginação.\nException (MwSolucoes.Exception): Camada voltada especificamente para o tratamento padronizado e das respostas de erros globais com recursos localizados (Resource Errors)."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#próximos-passos-roadmap",
-    "href": "projects/mw-solucoes/index.html#próximos-passos-roadmap",
-    "title": "MW Soluções API",
-    "section": "Próximos Passos (Roadmap)",
-    "text": "Próximos Passos (Roadmap)\n\nLançamento do Front-end: Construção da interface gráfica de usuário utilizando Angular e TypeScript, mapeando as telas baseadas nos contratos da Communication.\n💳ntegração Financeira: Extensão do domínio de requisição de serviços para acoplar Gateways de Pagamentos para acerto automático de valores.\nDevOps e Hospedagem: Conteinerização Dockerizada da aplicação (API e DB) e implantação dos serviços produtivos em uma VPS própria.\nRoteamento Público: Aquisição de Domínio Privado e configuração de certificados SSL para expor a solução mundialmente."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#stack-tecnológica",
-    "href": "projects/mw-solucoes/index.html#stack-tecnológica",
-    "title": "MW Soluções API",
-    "section": "Stack Tecnológica",
-    "text": "Stack Tecnológica\n\n\n\nLinguagem & Framework\nC# e .NET 8 / ASP.NET Core.\n\n\n\n\nPersistência e ORM\nPostgreSQL com Entity Framework Core (Migrations Code-First).\n\n\nAutenticação\nPadrão JWT (JSON Web Token) e Hashing de senhas.\n\n\nPadrões Utilizados\nClean Architecture, Repository Pattern, Dependency Injection (DI), DDD."
-  },
-  {
-    "objectID": "projects/mw-solucoes/index.html#próximos-passos",
-    "href": "projects/mw-solucoes/index.html#próximos-passos",
-    "title": "MW Soluções API",
-    "section": "Próximos Passos",
-    "text": "Próximos Passos\n\nLançamento do Front-end: Construção da interface gráfica de usuário utilizando Angular e TypeScript, mapeando as telas baseadas nos contratos da Communication.\nIntegração Financeira: Extensão do domínio de requisição de serviços para acoplar Gateways de Pagamentos para acerto automático de valores.\nDevOps e Hospedagem: Conteinerização Dockerizada da aplicação (API e DB) e implantação dos serviços produtivos em uma VPS própria.\nRoteamento Público: Aquisição de Domínio Privado e configuração de certificados SSL para expor a solução mundialmente."
-  },
-  {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "Vamos Conversar?\nTem interesse em discutir sobre arquitetura de software, oportunidades de trabalho, projetos open-source ou apenas trocar ideias sobre tecnologia? Fique à vontade para me enviar uma mensagem!\nEste formulário é destinado a contatos profissionais e colaborações no desenvolvimento.\n Outros canais de comunicação:\n\n\n contato.mwno@gmail.com\n\n\n GitHub\n\n\n LinkedIn\n\n\n\n\n\n\n\n\n\n\n  \n  \n    Nome\n    \n  \n  \n  \n    E-mail\n    \n  \n  \n  \n    Mensagem\n    \n  \n  \n  \n    \n       Enviar Mensagem"
-  },
-  {
-    "objectID": "cursos/cursos.html",
-    "href": "cursos/cursos.html",
-    "title": "Cursos e Capacitações",
-    "section": "",
-    "text": "Abaixo estão listados os cursos e formações de capacitação que realizei em instituições de ensino e plataformas de tecnologia.\n\n\n\n\n\nProgramador Web\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nPrograma abrangente de formação técnica que cobre HTML, CSS, Lógica de Programação, JavaScript, Banco de Dados e o desenvolvimento de Projetos de Sistemas Web.\n\n\n\n\n200h 15 Jan 2026\n\n\n\n\n\n\n\n\nPHP para Iniciantes\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nFoca nos fundamentos do PHP, ambiente de desenvolvimento, operadores, controle de fluxo, funções, strings, arrays e desenvolvimento de formulários.\n\n\n\n\n30h 08 Jan 2026\n\n\n\n\n\n\n\n\nBanco de Dados: Oracle PL/SQL\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nCobre comandos da linguagem PL/SQL, blocos anônimos, procedures, funções, cursores, exceções, pacotes e triggers.\n\n\n\n\n20h 09 Dez 2025\n\n\n\n\n\n\n\n\nJavaScript: Fundamentos\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nAborda a história e evolução do JavaScript, sintaxe básica, funções, manipulação do DOM, eventos e validação de formulários.\n\n\n\n\n40h 30 Set 2025\n\n\n\n\n\n\n\n\nFundamentos do Suporte Técnico\n\n\nGoogle (via Coursera)\n\n\nCurso focado nos princípios essenciais para atuação em suporte técnico, autorizado pela Google como parte de seus programas de certificados profissionais.\n\n\n\n\n40h 16 Dez 2023\n\n\n\n\n\n\n\n\nEditor de Texto\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nAborda a configuração de páginas, formatação baseada em estilos, uso de imagens, tabelas, sumários e regras da ABNT.\n\n\n\n\n40h 22 Abr 2023\n\n\n\n\n\n\n\n\nInformática Básica\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nIntrodução a processadores de texto, planilhas eletrônicas, apresentações gráficas e ferramentas de acesso à internet.\n\n\n\n\n40h 22 Abr 2023\n\n\n\n\n\n\n\n\nPlanilhas Eletrônicas\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEnsina o uso do LibreOffice, formatação de células, operações matemáticas, funções (média, mediana), gráficos e matrizes.\n\n\n\n\n40h 19 Abr 2023\n\n\n\n\n\n\n\n\nGestão Financeira\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nConceitos fundamentais de gestão financeira, planejamento de decisões, fontes de recursos e gestão de capital de giro.\n\n\n\n\n30h 18 Abr 2023\n\n\n\n\n\n\n\n\nAdministração de Recursos Humanos\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nTrata da evolução e objetivos do RH, políticas e estratégias, planejamento de RH e comunicação interpessoal nas organizações.\n\n\n\n\n40h 29 Mar 2023\n\n\n\n\n\n\n\n\nIntrodução à Logística\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEvolução da logística, atividades primárias (transportes, estoques) e de apoio (armazenagem, compras), além de tendências como a Logística 4.0.\n\n\n\n\n40h 27 Mar 2023\n\n\n\n\n\n\n\n\nSegurança no Trabalho e Eletricidade Básica\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nIntrodução à segurança ocupacional, normas regulamentadoras e conceitos básicos de eletricidade (tensão, corrente, resistência, Lei de Ohm).\n\n\n\n\n40h 13 Dez 2022\n\n\n\n\n\n\n\n\nManutenção de Computadores\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEngloba conceitos de hardware, montagem de componentes (placa-mãe, processador, memórias), limpeza e diagnósticos de defeitos de hardware.\n\n\n\n\n60h 12 Dez 2022"
-  },
-  {
-    "objectID": "eventos/eventos.html",
-    "href": "eventos/eventos.html",
-    "title": "Eventos e Atuações",
-    "section": "",
-    "text": "Bem-vindo à minha página de eventos, palestras e atuações na área de tecnologia. Abaixo estão listados os principais eventos em que participei.\n\nEventos e Conferências\n\n\n\n\n\n ROGA DX 2025\nData: 12/09/2025 - 13/09/2025. Descrição: Participação no evento de tecnologia ROGA DX, ocorrido em Maceió, nos dias 12 e 13 de setembro de 2025.\n\n\n\n\n Membro do Centro Acadêmico de Sistemas de Informação - CASI\nData: Integralmente em 2024 e 2025.\nDescrição: Atuação como membro da diretoria de comunicação do Centro Acadêmico de Sistemas de Informação (CASI).\n\n\n\n\n DevFest Nordeste 2024\nData: 14/12/2024\nDescrição: Participação no DevFest (Google Developer Groups), ocorrido no SEST/SENAT, Arapiraca/AL.\n\n\n\n\n ROGA DX 2024\nData: 30/08/2024.\nDescrição: Participação no evento de tecnologia ROGA DX, ocorrido em Maceió, nos dias 30 e 31 de agosto de 2024.\n\n\n\n\n Debian Day\nData: 17/08/2024\nDescrição: Participação no evento de tecnologia Debian Day, localizado no SENAI Poço, Maceió/AL."
-  },
-  {
-    "objectID": "cursos.html",
-    "href": "cursos.html",
-    "title": "Cursos e Capacitações",
-    "section": "",
-    "text": "Abaixo estão listados os cursos e formações de capacitação que realizei em instituições de ensino e plataformas de tecnologia.\n\n\n\n\n\nProgramador Web\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nPrograma abrangente de formação técnica que cobre HTML, CSS, Lógica de Programação, JavaScript, Banco de Dados e o desenvolvimento de Projetos de Sistemas Web.\n\n\n\n\n200h 15 Jan 2026\n\n\n\n\n\n\n\n\nPHP para Iniciantes\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nFoca nos fundamentos do PHP, ambiente de desenvolvimento, operadores, controle de fluxo, funções, strings, arrays e desenvolvimento de formulários.\n\n\n\n\n30h 08 Jan 2026\n\n\n\n\n\n\n\n\nBanco de Dados: Oracle PL/SQL\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nCobre comandos da linguagem PL/SQL, blocos anônimos, procedures, funções, cursores, exceções, pacotes e triggers.\n\n\n\n\n20h 09 Dez 2025\n\n\n\n\n\n\n\n\nJavaScript: Fundamentos\n\n\nInstituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)\n\n\nAborda a história e evolução do JavaScript, sintaxe básica, funções, manipulação do DOM, eventos e validação de formulários.\n\n\n\n\n40h 30 Set 2025\n\n\n\n\n\n\n\n\nFundamentos do Suporte Técnico\n\n\nGoogle (via Coursera)\n\n\nCurso focado nos princípios essenciais para atuação em suporte técnico, autorizado pela Google como parte de seus programas de certificados profissionais.\n\n\n\n\n40h 16 Dez 2023\n\n\n\n\n\n\n\n\nEditor de Texto\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nAborda a configuração de páginas, formatação baseada em estilos, uso de imagens, tabelas, sumários e regras da ABNT.\n\n\n\n\n40h 22 Abr 2023\n\n\n\n\n\n\n\n\nInformática Básica\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nIntrodução a processadores de texto, planilhas eletrônicas, apresentações gráficas e ferramentas de acesso à internet.\n\n\n\n\n40h 22 Abr 2023\n\n\n\n\n\n\n\n\nPlanilhas Eletrônicas\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEnsina o uso do LibreOffice, formatação de células, operações matemáticas, funções (média, mediana), gráficos e matrizes.\n\n\n\n\n40h 19 Abr 2023\n\n\n\n\n\n\n\n\nGestão Financeira\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nConceitos fundamentais de gestão financeira, planejamento de decisões, fontes de recursos e gestão de capital de giro.\n\n\n\n\n30h 18 Abr 2023\n\n\n\n\n\n\n\n\nAdministração de Recursos Humanos\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nTrata da evolução e objetivos do RH, políticas e estratégias, planejamento de RH e comunicação interpessoal nas organizações.\n\n\n\n\n40h 29 Mar 2023\n\n\n\n\n\n\n\n\nIntrodução à Logística\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEvolução da logística, atividades primárias (transportes, estoques) e de apoio (armazenagem, compras), além de tendências como a Logística 4.0.\n\n\n\n\n40h 27 Mar 2023\n\n\n\n\n\n\n\n\nSegurança no Trabalho e Eletricidade Básica\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nIntrodução à segurança ocupacional, normas regulamentadoras e conceitos básicos de eletricidade (tensão, corrente, resistência, Lei de Ohm).\n\n\n\n\n40h 13 Dez 2022\n\n\n\n\n\n\n\n\nManutenção de Computadores\n\n\nInstituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)\n\n\nEngloba conceitos de hardware, montagem de componentes (placa-mãe, processador, memórias), limpeza e diagnósticos de defeitos de hardware.\n\n\n\n\n60h 12 Dez 2022"
   }
 ]

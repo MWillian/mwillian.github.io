@@ -1,63 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-05-12T23:44:26.207Z</lastmod>
+    <loc>https://mwillian.github.io/projects/mw-solucoes/index.html</loc>
+    <lastmod>2026-05-13T02:33:54.609Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2026-05-12T18:09:06.040Z</lastmod>
+    <loc>https://mwillian.github.io/projects/index.html</loc>
+    <lastmod>2026-05-13T02:10:08.277Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-05-12T19:06:14.677Z</lastmod>
+    <loc>https://mwillian.github.io/projects/backup-em-rede/index.html</loc>
+    <lastmod>2026-05-13T02:33:25.110Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2026-05-12T18:09:06.019Z</lastmod>
+    <loc>https://mwillian.github.io/index.html</loc>
+    <lastmod>2026-05-13T02:54:31.007Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/projects/index.html</loc>
-    <lastmod>2026-05-12T22:48:33.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/about/about.html</loc>
-    <lastmod>2026-05-12T23:35:00.405Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/projects/assista-junto/index.html</loc>
-    <lastmod>2026-05-12T22:41:50.421Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/projects/deliver-tracking/index.html</loc>
-    <lastmod>2026-05-12T23:31:51.003Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/projects/medcon/index.html</loc>
-    <lastmod>2026-05-12T23:43:04.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/projects/backup-em-rede/index.html</loc>
-    <lastmod>2026-05-12T23:32:59.470Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/projects/mw-solucoes/index.html</loc>
-    <lastmod>2026-05-12T23:20:38.271Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/contato.html</loc>
-    <lastmod>2026-05-13T00:37:28.055Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/cursos/cursos.html</loc>
+    <loc>https://mwillian.github.io/cursos/cursos.html</loc>
     <lastmod>2026-05-13T00:35:56.551Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/eventos/eventos.html</loc>
-    <lastmod>2026-05-13T00:43:39.743Z</lastmod>
+    <loc>https://mwillian.github.io/about/about.html</loc>
+    <lastmod>2026-05-13T02:59:04.024Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/cursos.html</loc>
-    <lastmod>2026-05-13T00:31:51.626Z</lastmod>
+    <loc>https://mwillian.github.io/contato.html</loc>
+    <lastmod>2026-05-13T02:38:30.020Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mwillian.github.io/eventos/eventos.html</loc>
+    <lastmod>2026-05-13T02:02:32.929Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mwillian.github.io/projects/assista-junto/index.html</loc>
+    <lastmod>2026-05-13T02:33:34.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mwillian.github.io/projects/deliver-tracking/index.html</loc>
+    <lastmod>2026-05-13T02:32:43.908Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mwillian.github.io/projects/medcon/index.html</loc>
+    <lastmod>2026-05-13T02:33:44.435Z</lastmod>
   </url>
 </urlset>

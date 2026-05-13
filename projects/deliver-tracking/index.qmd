@@ -1,8 +1,8 @@
 ---
 title: "Delivery Tracking API"
 subtitle: "Gestão logística e rastreamento de entregas com arquitetura desacoplada."
-date: "2026-03-30"
-categories: [Acadêmico, Em desenvolvimento, Node.js, Express, SQLite]
+date: "2026-03-19"
+categories: [Acadêmico, Node.js, Express, SQLite]
 image: logo.png
 about:
   template: solana
@@ -10,6 +10,7 @@ about:
     - icon: github
       text: Repositório
       href: https://github.com/MWillian/delivery-tracking
+      target: _blank
 ---
 
 ::: {.callout-note icon=false}

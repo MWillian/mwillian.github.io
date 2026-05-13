@@ -1,15 +1,16 @@
 ---
 title: "MEDCON: Centralizador de Consultas"
 subtitle: "Sistema de agendamento médico em Java Puro com arquitetura em camadas."
-date: "2026-05-12"
+date: "2025-11-27"
 image: logo.png
-categories: [Acadêmico, Em desenvolvimento, Java, SQLite]
+categories: [Acadêmico, Java, SQLite]
 about:
   template: solana
   links:
     - icon: github
       text: Repositório
       href: https://github.com/MWillian/MEDCON_SERVICOS_DE_MARCACAO
+      target: _blank
 ---
 
 ::: {.callout-note icon=false}
@@ -65,3 +66,10 @@ Nesta aplicação Console, foi estabelecido um padrão de arquitetura em camadas
   - Camadas (View, BO, VO, DAO).
 
 :::
+
+
+<style>
+  .about-image {
+    display: none !important;
+  }
+</style>

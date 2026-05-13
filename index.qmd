@@ -1,7 +1,7 @@
 ---
-title: "Matheus Willian"
-subtitle: "Desenvolvedor Fullstack | Estudante de Sistemas de Informação"
-image: profile.jpg
+title: "Matheus Willian | Início"
+subtitle: "Desenvolvedor Fullstack .NET | Angular | Bacharelando em Sistemas de Informação"
+image: profile.png
 about:
   template: jolla 
   image-shape: round
@@ -11,16 +11,19 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/mattdev-willian
+      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/MWillian
+      target: _blank
     - icon: envelope
       text: Email
       href: mailto:contato.mwno@gmail.com
+      target: _blank
 ---
 
-Bem-vindo ao meu espaço digital. Sou um desenvolvedor apaixonado por arquitetura limpa e soluções escaláveis. 
+Bem-vindo ao meu espaço digital. Sou um desenvolvedor apaixonado por trazer ideias para a realidade, e construir soluções para problemas concretos.
 
-Exploro o equilíbrio entre o backend robusto com **.NET** e o frontend dinâmico com **Angular**.
+Exploro a Tecnologia da Informação de forma holística, me aventurando pelos caminhos que surgirem.
 
 [Ver Projetos](projects/index.qmd) | [Ler sobre minha trajetória](about/about.qmd)

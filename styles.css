@@ -1,1 +1,20 @@
-/* css styles */
+.about-image {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  border: 4px solid #f8f9fa;
+}
+
+.about-image:hover {
+  transform: scale(1.02);
+}
+
+.quarto-listing-default .quarto-post .listing-title,
+.quarto-listing-default .quarto-post .listing-title a {
+  color: #3bd1ff !important;
+  font-weight: 900 !important;
+}
+
+a:hover {
+  color: #3bd1ff !important;
+  text-decoration: underline;
+}

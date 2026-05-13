@@ -2,43 +2,78 @@
 title: "Sobre Mim"
 about:
   template: trestles
+  id: hero-heading
   image: profile.jpeg
   links:
     - icon: file-earmark-pdf
       text: Currículo (PDF)
       href: curriculo.pdf 
+      target: _blank  
     - icon: mortarboard
       text: "Lattes"
       aria-label: "Lattes"
       href: http://lattes.cnpq.br/
+      target: _blank
     - icon: github
       text: "GitHub"
       aria-label: "GitHub"
       href: https://github.com/MWillian
+      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/mattdev-willian
+      target: _blank
+      
 ---
+:::: {#hero-heading}
 
 ## Minha Jornada
 
 Atualmente cursando **Sistemas de Informação no IFAL**, dedico-me ao desenvolvimento de soluções Full Stack com foco em tecnologias Microsoft e frameworks modernos de frontend.  
 
 ### Experiência Técnica
+No desenvolvimento de software, possuo domínio na linguagem **C# e ambiente .NET**, desenvolvendo APIs estruturadas e integradas a bancos de dados. Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando os frameworks **Angular** e **Blazor**, garantindo uma experiência de usuário fluida e integrada. 
+Além do conhecimento em desenvolvimento, também possuo experiência em infraestrutura e suporte de T.I, em atuações com suporte de campo.
 
-No backend, possuo domínio em **C# e .NET**, desenvolvendo APIs estruturadas e integradas a bancos de dados **PostgreSQL**.  Complemento essa base com a criação de interfaces dinâmicas e responsivas utilizando **Angular**, garantindo uma experiência de usuário fluida e integrada. 
+::::
 
 ### Perfil Profissional
+Sou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. 
 
-Sou reconhecido pela proatividade e facilidade em trabalhar em equipes multidisciplinares, sempre buscando aplicar uma visão analítica para transformar requisitos de negócio em software de qualidade. Além da graduação, possuo formação técnica pelo **SENAC/AL** em Manutenção e Suporte em Informática. 
+### Experiência Profissional
 
----
+**Estagiário Desenvolvedor Fullstack** | *Freelancer Remoto*  
 
+- Construção de interfaces dinâmicas utilizando o framework Blazor a partir de protótipos de alta fidelidade desenvolvidos no Figma.  
+- Implementação de serviços de backend em uma Web API .NET e operações de banco de dados em PostgreSQL, garantindo a integridade dos dados.  
+- Aplicação rigorosa das práticas de Git Workflow em um ambiente colaborativo para versionamento e entrega contínua de software.  
+
+**Estagiário de Suporte Técnico** | *Presencial*  
+
+- Execução e manutenção de cabeamento estruturado.  
+- Atuação com manutenção preventiva e corretiva de computadores, impressoras e periféricos.  
+- Configuração de serviços de infraestrutura no Windows Server (Active Directory, DHCP, DNS e Backup).  
+
+::: {.grid}
+
+::: {.g-col-11 .g-col-md-6}
 ### Formação Acadêmica
 
-* **Bacharelado em Sistemas de Informação** | IFAL (2023 - Atual)  
-* **Técnico em Manutenção e Suporte em Informática** | SENAC/AL (Concluído em 2024)  
+<ul class="list-unstyled" >
+  <li>
+  <i class="bi bi-mortarboard-fill text-primary"></i> **Bacharelado em Sistemas de Informação** | Instituto Federal de Educação Ciência e Tecnologia de Alagoas (2023 - Atual)  
+  </li>
+  <li>
+  <i class="bi bi-mortarboard-fill text-primary"></i> **Técnico em Manutenção e Suporte em Informática** | Serviço Nacional de Aprendizagem Comercial - SENAC/AL (Concluído em 2024) 
+  </li>
+</ul>
 
+:::
+
+::: {.g-col-12 .g-col-md-6}
 ### Idiomas
+Sou interessado por vários idiomas diferentes, mas atualmente sigo estudando o idioma Inglês, onde possuo proficiência intermediária. Também possuo grande interesse pela língua espanhola.
+:::
 
-* **Inglês**: Nível Intermediário (Autodidata).  
+:::
+

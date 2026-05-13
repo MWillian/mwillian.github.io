@@ -1,15 +1,16 @@
 ---
 title: "MW Soluções API"
 subtitle: "Plataforma Backend-as-a-Service para gerenciamento e prestação de serviços de manutenção de TI."
-date: "2026-05-12"
+date: "2026-03-19"
 image: logo.png
-categories: [Pessoal, Em desenvolvimento, .NET, PostgreSQL]
+categories: [Pessoal, .NET, PostgreSQL]
 about:
   template: solana
   links:
     - icon: github
       text: Repositório
       href: https://github.com/MWillian/mw_solucoes_api
+      target: _blank
 ---
 
 ::: {.callout-note icon=false}
@@ -72,7 +73,7 @@ O projeto foi cuidadosamente desenvolvido aplicando a **Clean Architecture** (Ar
 ::: {.list-table}
 
 - - **Linguagem & Framework**
-  - C# e .NET 8 / ASP.NET Core.
+  - C# e .NET 10 / ASP.NET Core.
 
 - - **Persistência e ORM**
   - PostgreSQL com Entity Framework Core (*Migrations Code-First*).

@@ -1,8 +1,8 @@
 ---
 title: "Servidor de Backup em Rede"
 subtitle: "Solução distribuída de backup em rede utilizando Sockets TCP puros em Python."
-date: "2026-05-12"
-categories: [Acadêmico, Concluído, Python, Redes]
+date: "2025-12-02"
+categories: [Acadêmico, Python, Redes]
 image: logo.png
 about:
   template: solana
@@ -10,6 +10,8 @@ about:
     - icon: github
       text: Repositório
       href: https://github.com/MWillian/projeto_backup_em_rede
+      target: _blank
+
 ---
 
 ::: {.callout-note icon=false}
@@ -110,3 +112,10 @@ Para organizar as trocas de informação entre os nós da rede, foi construído 
   - Utilização padrão das bibliotecas `os` e `sys` integradas a serialização efêmera em dicionários `.json`.
 
 :::
+
+
+<style>
+  .about-image {
+    display: none !important;
+  }
+</style>
