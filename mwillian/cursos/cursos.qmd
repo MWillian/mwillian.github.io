@@ -1,0 +1,219 @@
+---
+title: "Cursos e Capacitações"
+page-layout: full
+editor: source
+---
+
+Abaixo estão listados os cursos e formações de capacitação que realizei em instituições de ensino e plataformas de tecnologia.
+
+::: {.grid .mt-4}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-briefcase-fill me-2"></i>Programador Web</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</h6>
+<p class="card-text small mt-3">Programa abrangente de formação técnica que cobre HTML, CSS, Lógica de Programação, JavaScript, Banco de Dados e o desenvolvimento de Projetos de Sistemas Web.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>200h</span>
+  <small class="text-muted">15 Jan 2026</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-filetype-php me-2"></i>PHP para Iniciantes</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</h6>
+<p class="card-text small mt-3">Foca nos fundamentos do PHP, ambiente de desenvolvimento, operadores, controle de fluxo, funções, strings, arrays e desenvolvimento de formulários.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>30h</span>
+  <small class="text-muted">08 Jan 2026</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-database-fill me-2"></i>Banco de Dados: Oracle PL/SQL</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</h6>
+<p class="card-text small mt-3">Cobre comandos da linguagem PL/SQL, blocos anônimos, procedures, funções, cursores, exceções, pacotes e triggers.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>20h</span>
+  <small class="text-muted">09 Dez 2025</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-filetype-js me-2"></i>JavaScript: Fundamentos</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS)</h6>
+<p class="card-text small mt-3">Aborda a história e evolução do JavaScript, sintaxe básica, funções, manipulação do DOM, eventos e validação de formulários.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">30 Set 2025</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-braces me-2"></i>Fundamentos do Suporte Técnico</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Google (via Coursera)</h6>
+<p class="card-text small mt-3">Curso focado nos princípios essenciais para atuação em suporte técnico, autorizado pela Google como parte de seus programas de certificados profissionais.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">16 Dez 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-journal-text me-2"></i>Editor de Texto</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Aborda a configuração de páginas, formatação baseada em estilos, uso de imagens, tabelas, sumários e regras da ABNT.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">22 Abr 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-laptop me-2"></i>Informática Básica</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Introdução a processadores de texto, planilhas eletrônicas, apresentações gráficas e ferramentas de acesso à internet.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">22 Abr 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-table me-2"></i>Planilhas Eletrônicas</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Ensina o uso do LibreOffice, formatação de células, operações matemáticas, funções (média, mediana), gráficos e matrizes.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">19 Abr 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-wallet2 me-2"></i>Gestão Financeira</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Conceitos fundamentais de gestão financeira, planejamento de decisões, fontes de recursos e gestão de capital de giro.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>30h</span>
+  <small class="text-muted">18 Abr 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-people-fill me-2"></i>Administração de Recursos Humanos</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Trata da evolução e objetivos do RH, políticas e estratégias, planejamento de RH e comunicação interpessoal nas organizações.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">29 Mar 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-boxes me-2"></i>Introdução à Logística</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Evolução da logística, atividades primárias (transportes, estoques) e de apoio (armazenagem, compras), além de tendências como a Logística 4.0.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">27 Mar 2023</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-shield-fill-check me-2"></i>Segurança no Trabalho e Eletricidade Básica</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Introdução à segurança ocupacional, normas regulamentadoras e conceitos básicos de eletricidade (tensão, corrente, resistência, Lei de Ohm).</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>40h</span>
+  <small class="text-muted">13 Dez 2022</small>
+</div>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+<h5 class="card-title fw-bolder mb-2" style="color: #3bd1ff !important; font-weight: 900 !important;"><i class="bi bi-pc-display me-2"></i>Manutenção de Computadores</h5>
+<h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.85em;">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)</h6>
+<p class="card-text small mt-3">Engloba conceitos de hardware, montagem de componentes (placa-mãe, processador, memórias), limpeza e diagnósticos de defeitos de hardware.</p>
+:::
+::: {.card-footer .bg-transparent .border-top-0 .pt-0}
+<div class="d-flex justify-content-between align-items-center">
+  <span class="badge bg-secondary"><i class="bi bi-clock me-1"></i>60h</span>
+  <small class="text-muted">12 Dez 2022</small>
+</div>
+:::
+:::
+:::
+
+:::

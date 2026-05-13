@@ -23,4 +23,4 @@ Bem-vindo ao meu espaço digital. Sou um desenvolvedor apaixonado por arquitetur
 
 Exploro o equilíbrio entre o backend robusto com **.NET** e o frontend dinâmico com **Angular**.
 
-[Ver Projetos](projects.qmd) | [Ler sobre minha trajetória](about.qmd)
+[Ver Projetos](projects/index.qmd) | [Ler sobre minha trajetória](about/about.qmd)

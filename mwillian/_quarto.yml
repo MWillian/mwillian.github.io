@@ -13,6 +13,12 @@ website:
         text: Sobre
       - href: projects\index.qmd
         text: Projetos
+      - href: cursos\cursos.qmd
+        text: Cursos
+      - href: eventos\eventos.qmd
+        text: Eventos e Atuações
+      - href: contato.qmd
+        text: Contato
       - icon: github
         href: https://github.com/MWillian
       - icon: linkedin

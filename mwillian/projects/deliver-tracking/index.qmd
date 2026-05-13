@@ -2,7 +2,8 @@
 title: "Delivery Tracking API"
 subtitle: "Gestão logística e rastreamento de entregas com arquitetura desacoplada."
 date: "2026-03-30"
-categories: [Acadêmico, Em desenvolvimento, Node.js, Express]
+categories: [Acadêmico, Em desenvolvimento, Node.js, Express, SQLite]
+image: logo.png
 about:
   template: solana
   links:
@@ -108,3 +109,9 @@ Criação de camadas de validação nos *Services* que utilizam códigos de stat
 
 Manter um log de quem fez o quê e quando, sem sobrecarregar o código do controlador.
 Estruturamos a persistência para que, a cada mudança de estado da entrega, um registro no `HistoricoEntregas` seja criado automaticamente dentro da transação do banco de dados. Isso garante **auditabilidade** do processo logístico.
+
+<style>
+  .about-image {
+    display: none !important;
+  }
+</style>

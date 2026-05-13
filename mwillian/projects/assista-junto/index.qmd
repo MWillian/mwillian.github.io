@@ -1,7 +1,7 @@
 ---
 title: "Assista Junto"
 subtitle: "Sincronização de mídia em tempo real para experiências compartilhadas."
-date: "2024-11-15"
+date: "2026-02-01"
 categories: [Pessoal, Concluído, .NET, PostgreSQL, Blazor]
 about:
   template: solana

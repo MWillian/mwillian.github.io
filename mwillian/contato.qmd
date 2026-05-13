@@ -1,0 +1,65 @@
+---
+title: "Contato"
+page-layout: full
+editor: source
+---
+
+::::::::: {.grid .mt-5}
+
+::: {.g-col-12 .g-col-md-5}
+### Vamos Conversar?
+
+Tem interesse em discutir sobre arquitetura de software, oportunidades de trabalho, projetos open-source ou apenas trocar ideias sobre tecnologia? Fique à vontade para me enviar uma mensagem!
+
+Este formulário é destinado a contatos profissionais e colaborações no desenvolvimento. 
+
+<br>
+**Outros canais de comunicação:**
+
+<ul class="list-unstyled mt-3" style="line-height: 2.0;">
+  <li><i class="bi bi-envelope-at-fill text-primary me-2"></i> <a href="mailto:contato.mwno@gmail.com" class="text-decoration-none">contato.mwno@gmail.com</a></li>
+  <li><i class="bi bi-github text-primary me-2"></i> <a href="https://github.com/MWillian" target="_blank" class="text-decoration-none">GitHub</a></li>
+  <li><i class="bi bi-linkedin text-primary me-2"></i> <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none">LinkedIn</a></li>
+</ul>
+
+:::
+
+::: {.g-col-12 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .shadow-sm .border-0}
+::: {.card-body .p-4}
+
+```{=html}
+<form action="https://formspree.io/f/SEU_CODIGO_AQUI" method="POST" accept-charset="utf-8">
+  
+  <div class="mb-3">
+    <label for="full-name" class="form-label fw-bold">Nome</label>
+    <input type="text" name="name" id="full-name" class="form-control" placeholder="Como devo lhe chamar?" required>
+  </div>
+  
+  <div class="mb-3">
+    <label for="email-address" class="form-label fw-bold">E-mail</label>
+    <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="seu@email.com" required>
+  </div>
+  
+  <div class="mb-4">
+    <label for="message" class="form-label fw-bold">Mensagem</label>
+    <textarea rows="5" name="message" id="message" class="form-control" placeholder="Escreva sua mensagem aqui..." required></textarea>
+  </div>
+  
+  <div class="d-grid">
+    <button type="submit" class="btn btn-primary btn-lg">
+      <i class="bi bi-send-fill me-2"></i> Enviar Mensagem
+    </button>
+  </div>
+
+</form>
+```
+
+:::
+:::
+:::
+
+:::::::::

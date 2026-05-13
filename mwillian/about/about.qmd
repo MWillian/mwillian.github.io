@@ -7,6 +7,17 @@ about:
     - icon: file-earmark-pdf
       text: Currículo (PDF)
       href: curriculo.pdf 
+    - icon: mortarboard
+      text: "Lattes"
+      aria-label: "Lattes"
+      href: http://lattes.cnpq.br/
+    - icon: github
+      text: "GitHub"
+      aria-label: "GitHub"
+      href: https://github.com/MWillian
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/mattdev-willian
 ---
 
 ## Minha Jornada

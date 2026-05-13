@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-12">
 
-<title>index – Matheus Willian</title>
+<title>MW Soluções API – Matheus Willian</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -123,24 +123,138 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">MW Soluções API</h1>
+<p class="subtitle lead">Plataforma Backend-as-a-Service para gerenciamento e prestação de serviços de manutenção de TI.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Pessoal</div>
+    <div class="quarto-category">Em desenvolvimento</div>
+    <div class="quarto-category">.NET</div>
+    <div class="quarto-category">PostgreSQL</div>
+  </div>
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 12, 2026</p>
+    </div>
+  </div>
+  </div>
+</header> <div class="about-links">
+  <a href="https://github.com/MWillian/mw_solucoes_api" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Repositório</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Status do Projeto: <strong>Pessoal / Em Desenvolvimento</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A primeira grande etapa de back-end está 100% concluída. O modelo de dados base está persistido, a lógica central programada e a API funcional com endpoints protegidos e documentados.</p>
+</div>
+</div>
+<section id="o-projeto" class="level2">
+<h2 data-anchor-id="o-projeto">O Projeto</h2>
+<p>A <strong>MW Soluções API</strong> é o núcleo de back-end (<em>backend-as-a-service</em>) para uma plataforma robusta de gerenciamento e prestação de serviços de manutenção de microcomputadores. Construída utilizando práticas modernas de engenharia de software e arquitetura em camadas, a API viabiliza o controle desde a oferta de serviços até o acompanhamento em tempo real das manutenções solicitadas.</p>
+<p>O objetivo principal é oferecer uma plataforma intuitiva, limpa, simples e altamente confiável que atua como a ponte de comunicação entre consumidores de serviços de tecnologia (clientes) e os prestadores (técnicos profissionais). Fornecendo total governança de todo o ciclo de vida do serviço: do orçamento e solicitação inicial à conclusão com histórico garantido.</p>
+<hr>
+</section>
+<section id="perfil-de-acesso-rbac" class="level2">
+<h2 data-anchor-id="perfil-de-acesso-rbac">Perfil de Acesso (RBAC)</h2>
+<p>O sistema é estruturado em torno do Controle de Acesso Baseado em Papéis (<em>Role Based Access Control</em>) com perfis distintos:</p>
+<ul>
+<li><strong>Cliente (Consumidor):</strong> Aquele que necessita do reparo e consulta o catálogo de serviços, realiza a abertura de solicitações de reparo e acompanha toda a progressão do atendimento através do histórico detalhado.</li>
+<li><strong>Técnico (Administrador/Prestador):</strong> Responsável por operar a plataforma, gerenciar o catálogo de serviços prestados, atualizar o ciclo de vida dos chamados (aceitando, rejeitando, finalizando ou cancelando) e atuando tecnicamente nas necessidades do cliente.</li>
+</ul>
+<hr>
+</section>
+<section id="jornadas-e-fluxos-principais" class="level2">
+<h2 data-anchor-id="jornadas-e-fluxos-principais">Jornadas e Fluxos Principais</h2>
+<p>O projeto está mapeado com regras de negócios complexas que cobrem jornadas ponta a ponta:</p>
+<ul>
+<li><strong>Gestão de Identidade:</strong> Cadastro e autenticação segura de usuários distinguindo os níveis de permissões.</li>
+<li><strong>Catálogo de Serviços (<em>Maintenance Services</em>):</strong> O técnico cadastra serviços padronizados (ex: “Formatação”, “Limpeza”, “Troca de HD”), configurando os parâmetros vitais da oferta e sua disponibilidade (Ativar/Desativar).</li>
+<li><strong>Abertura e Evolução de Chamados (<em>Service Requests</em>):</strong> O cliente seleciona de 1 a N serviços do catálogo, criando uma requisição unificada.</li>
+<li><strong>Gestão de Estado e Rastreabilidade:</strong> Os chamados obedecem rigorosas máquinas de estado e validações: <em>Criada ➔ Em Progresso (após aceite do técnico) ➔ Finalizada, Rejeitada ou Cancelada</em>. Todo salto de status gera um registro automático de rastreio (<em>ServiceRequestHistory</em>).</li>
+</ul>
+<hr>
+</section>
+<section id="arquitetura-e-engenharia-de-software" class="level2">
+<h2 data-anchor-id="arquitetura-e-engenharia-de-software">Arquitetura e Engenharia de Software</h2>
+<p>O projeto foi cuidadosamente desenvolvido aplicando a <strong>Clean Architecture</strong> (Arquitetura Limpa) orientada a <strong>Domain-Driven Design (DDD)</strong>, garantindo baixo acoplamento e altíssima manutenibilidade. A estrutura divide-se metodicamente em:</p>
+<ul>
+<li><strong>Api (<code>MwSolucoes.Api</code>):</strong> A camada de apresentação (<em>Controllers</em> e Filtros) que expõe publicamente os <em>endpoints</em> REST.</li>
+<li><strong>Application (<code>MwSolucoes.Application</code>):</strong> Responsável por orquestrar os Casos de Uso (<em>UseCases</em>), lidando com regras lógicas específicas da aplicação. Contém os validadores de regra de negócio, <em>Mappers</em> e orquestração de dependências (Auth, User, ServiceRequest, MaintenanceService).</li>
+<li><strong>Domain (<code>MwSolucoes.Domain</code>):</strong> O coração da plataforma. Totalmente agnóstico, contém as Entidades puras (User, MaintenanceService, ServiceRequest, etc.), <em>Enums</em> (níveis de acesso, status, categorias), <em>Value Objects</em> e as Interfaces dos repositórios.</li>
+<li><strong>Infrastructure (<code>MwSolucoes.Infrastructure</code>):</strong> Camada de dados e acesso externo. Cuida do Entity Framework Core, DbContexts, migrações para o banco de dados, repositórios de dados reais, geração de Tokens de Segurança e comunicação com APIs externas como validação de CEP via integradores (<code>ICepValidator</code>).</li>
+<li><strong>Communication (<code>MwSolucoes.Communication</code>):</strong> Isola todos os Contratos de API, detendo os objetos de requisições de entrada (<em>Requests</em>) e de respostas de saída (<em>Responses</em>), além do tratamento de dados de paginação.</li>
+<li><strong>Exception (<code>MwSolucoes.Exception</code>):</strong> Camada voltada especificamente para o tratamento padronizado e das respostas de erros globais com recursos localizados (<em>Resource Errors</em>).</li>
+</ul>
+<hr>
+</section>
+<section id="próximos-passos" class="level2">
+<h2 data-anchor-id="próximos-passos">Próximos Passos</h2>
+<ul>
+<li><strong>Lançamento do Front-end:</strong> Construção da interface gráfica de usuário utilizando Angular e TypeScript, mapeando as telas baseadas nos contratos da Communication.</li>
+<li><strong>Integração Financeira:</strong> Extensão do domínio de requisição de serviços para acoplar Gateways de Pagamentos para acerto automático de valores.</li>
+<li><strong>DevOps e Hospedagem:</strong> Conteinerização Dockerizada da aplicação (API e DB) e implantação dos serviços produtivos em uma VPS própria.</li>
+<li><strong>Roteamento Público:</strong> Aquisição de Domínio Privado e configuração de certificados SSL para expor a solução mundialmente.</li>
+</ul>
+<hr>
+</section>
+<section id="stack-tecnológica" class="level2">
+<h2 data-anchor-id="stack-tecnológica">Stack Tecnológica</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Linguagem &amp; Framework</strong></th>
+<th>C# e .NET 8 / ASP.NET Core.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Persistência e ORM</strong></td>
+<td>PostgreSQL com Entity Framework Core (<em>Migrations Code-First</em>).</td>
+</tr>
+<tr class="even">
+<td><strong>Autenticação</strong></td>
+<td>Padrão JWT (JSON Web Token) e <em>Hashing</em> de senhas.</td>
+</tr>
+<tr class="odd">
+<td><strong>Padrões Utilizados</strong></td>
+<td>Clean Architecture, Repository Pattern, Dependency Injection (DI), DDD.</td>
+</tr>
+</tbody>
+</table>
+<style>
+  .about-image {
+    display: none !important;
+  }
+</style>
 
 
-
-
-
-
-
-</main> <!-- /main -->
+</section>
+</main></div>
+    </div>
+    <img src="logo.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

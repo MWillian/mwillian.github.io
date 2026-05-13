@@ -1,0 +1,92 @@
+---
+title: "MW Soluções API"
+subtitle: "Plataforma Backend-as-a-Service para gerenciamento e prestação de serviços de manutenção de TI."
+date: "2026-05-12"
+image: logo.png
+categories: [Pessoal, Em desenvolvimento, .NET, PostgreSQL]
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Repositório
+      href: https://github.com/MWillian/mw_solucoes_api
+---
+
+::: {.callout-note icon=false}
+## Status do Projeto: **Pessoal / Em Desenvolvimento**
+A primeira grande etapa de back-end está 100% concluída. O modelo de dados base está persistido, a lógica central programada e a API funcional com endpoints protegidos e documentados.
+:::
+
+## O Projeto
+
+A **MW Soluções API** é o núcleo de back-end (*backend-as-a-service*) para uma plataforma robusta de gerenciamento e prestação de serviços de manutenção de microcomputadores. Construída utilizando práticas modernas de engenharia de software e arquitetura em camadas, a API viabiliza o controle desde a oferta de serviços até o acompanhamento em tempo real das manutenções solicitadas.
+
+O objetivo principal é oferecer uma plataforma intuitiva, limpa, simples e altamente confiável que atua como a ponte de comunicação entre consumidores de serviços de tecnologia (clientes) e os prestadores (técnicos profissionais). Fornecendo total governança de todo o ciclo de vida do serviço: do orçamento e solicitação inicial à conclusão com histórico garantido.
+
+---
+
+## Perfil de Acesso (RBAC)
+
+O sistema é estruturado em torno do Controle de Acesso Baseado em Papéis (*Role Based Access Control*) com perfis distintos:
+
+* **Cliente (Consumidor):** Aquele que necessita do reparo e consulta o catálogo de serviços, realiza a abertura de solicitações de reparo e acompanha toda a progressão do atendimento através do histórico detalhado.
+* **Técnico (Administrador/Prestador):** Responsável por operar a plataforma, gerenciar o catálogo de serviços prestados, atualizar o ciclo de vida dos chamados (aceitando, rejeitando, finalizando ou cancelando) e atuando tecnicamente nas necessidades do cliente.
+
+---
+
+## Jornadas e Fluxos Principais
+
+O projeto está mapeado com regras de negócios complexas que cobrem jornadas ponta a ponta:
+
+* **Gestão de Identidade:** Cadastro e autenticação segura de usuários distinguindo os níveis de permissões.
+* **Catálogo de Serviços (*Maintenance Services*):** O técnico cadastra serviços padronizados (ex: "Formatação", "Limpeza", "Troca de HD"), configurando os parâmetros vitais da oferta e sua disponibilidade (Ativar/Desativar).
+* **Abertura e Evolução de Chamados (*Service Requests*):** O cliente seleciona de 1 a N serviços do catálogo, criando uma requisição unificada.
+* **Gestão de Estado e Rastreabilidade:** Os chamados obedecem rigorosas máquinas de estado e validações: *Criada ➔ Em Progresso (após aceite do técnico) ➔ Finalizada, Rejeitada ou Cancelada*. Todo salto de status gera um registro automático de rastreio (*ServiceRequestHistory*).
+
+---
+
+## Arquitetura e Engenharia de Software
+
+O projeto foi cuidadosamente desenvolvido aplicando a **Clean Architecture** (Arquitetura Limpa) orientada a **Domain-Driven Design (DDD)**, garantindo baixo acoplamento e altíssima manutenibilidade. A estrutura divide-se metodicamente em:
+
+* **Api (`MwSolucoes.Api`):** A camada de apresentação (*Controllers* e Filtros) que expõe publicamente os *endpoints* REST.
+* **Application (`MwSolucoes.Application`):** Responsável por orquestrar os Casos de Uso (*UseCases*), lidando com regras lógicas específicas da aplicação. Contém os validadores de regra de negócio, *Mappers* e orquestração de dependências (Auth, User, ServiceRequest, MaintenanceService).
+* **Domain (`MwSolucoes.Domain`):** O coração da plataforma. Totalmente agnóstico, contém as Entidades puras (User, MaintenanceService, ServiceRequest, etc.), *Enums* (níveis de acesso, status, categorias), *Value Objects* e as Interfaces dos repositórios.
+* **Infrastructure (`MwSolucoes.Infrastructure`):** Camada de dados e acesso externo. Cuida do Entity Framework Core, DbContexts, migrações para o banco de dados, repositórios de dados reais, geração de Tokens de Segurança e comunicação com APIs externas como validação de CEP via integradores (`ICepValidator`).
+* **Communication (`MwSolucoes.Communication`):** Isola todos os Contratos de API, detendo os objetos de requisições de entrada (*Requests*) e de respostas de saída (*Responses*), além do tratamento de dados de paginação.
+* **Exception (`MwSolucoes.Exception`):** Camada voltada especificamente para o tratamento padronizado e das respostas de erros globais com recursos localizados (*Resource Errors*).
+
+---
+
+## Próximos Passos
+
+* **Lançamento do Front-end:** Construção da interface gráfica de usuário utilizando Angular e TypeScript, mapeando as telas baseadas nos contratos da Communication.
+* **Integração Financeira:** Extensão do domínio de requisição de serviços para acoplar Gateways de Pagamentos para acerto automático de valores.
+* **DevOps e Hospedagem:** Conteinerização Dockerizada da aplicação (API e DB) e implantação dos serviços produtivos em uma VPS própria.
+* **Roteamento Público:** Aquisição de Domínio Privado e configuração de certificados SSL para expor a solução mundialmente.
+
+---
+
+## Stack Tecnológica
+
+::: {.list-table}
+
+- - **Linguagem & Framework**
+  - C# e .NET 8 / ASP.NET Core.
+
+- - **Persistência e ORM**
+  - PostgreSQL com Entity Framework Core (*Migrations Code-First*).
+
+- - **Autenticação**
+  - Padrão JWT (JSON Web Token) e *Hashing* de senhas.
+
+- - **Padrões Utilizados**
+  - Clean Architecture, Repository Pattern, Dependency Injection (DI), DDD.
+
+:::
+
+<style>
+  .about-image {
+    display: none !important;
+  }
+</style>

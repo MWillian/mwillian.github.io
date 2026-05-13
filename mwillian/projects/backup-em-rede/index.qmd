@@ -1,0 +1,112 @@
+---
+title: "Servidor de Backup em Rede"
+subtitle: "Solução distribuída de backup em rede utilizando Sockets TCP puros em Python."
+date: "2026-05-12"
+categories: [Acadêmico, Concluído, Python, Redes]
+image: logo.png
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Repositório
+      href: https://github.com/MWillian/projeto_backup_em_rede
+---
+
+::: {.callout-note icon=false}
+## Status do Projeto: **Acadêmico / Concluído**
+Este projeto acadêmico foi desenvolvido para explorar comunicações em rede na camada de transporte. O sistema adota uma arquitetura Cliente-Coordenador-Servidor totalmente desenvolvida utilizando a API nativa de Sockets TCP em Python, lidando com *threads* e múltiplas portas de conexão simultâneas.
+:::
+
+## O Projeto
+
+Este projeto consiste na implementação de uma solução robusta de *backup* em rede. O objetivo prático é garantir a capacidade de processar múltiplas conexões e requisições concorrentes, permitindo que vários usuários salvem e recuperem arquivos em um ambiente distribuído e particionado.
+
+A arquitetura da rede é composta por três tipos de atores (nós), cada um com responsabilidades bem definidas:
+
+### 1. Cliente (Interface do Usuário)
+
+O Cliente oferece a interface de linha de comando para o usuário, conectando-se ao Coordenador na Porta 10000. Ele é puramente responsável por prover a interação com o usuário humano.
+
+* Permite que o usuário defina seu apelido, o IP do Coordenador e o diretório de destino para downloads.
+* **Upload:** Solicita o envio de arquivos e apenas inicia a transferência de bytes após a confirmação de prontidão (`UPL_READY`), assegurando sincronização.
+* **Download:** Processa a requisição de download e caso o identificador do arquivo seja inválido ou o servidor não o localize, exibe a mensagem de erro.
+
+### 2. Coordenador (Lógica Central)
+
+O Coordenador é o "cérebro" invisível da aplicação e não interage diretamente com nenhum usuário. Ele atua como ponto central em três portas (999, 10000, 8000), gerenciando de forma assíncrona o tráfego de dados.  
+
+* **Balanceamento de Carga:** Retira IPs de servidores de uma fila para efetuar transferências, recolocando-os de volta apenas se o processo concluir com sucesso.
+* **Gerenciamento de Auto-Healing:** Realiza *ping* ativo durante reinicializações. Servidores inativos são tratados como reiniciados, curando a tabela caso reapareçam.
+* **Mapeamento de Metadados:** Salva informações e identificadores gerados (em formato JSON persistente), mapeando qual cliente enviou e qual IP guardou o arquivo na nuvem.  
+
+### 3. Servidor de Arquivo (Armazenamento)
+O Servidor de Arquivos gerencia o espaço em disco isolado e interage ativamente nas portas de serviço 999 e 8000 do Coordenador.
+* **Cadastro:** O Servidor anuncia seu IP e existência e fica apto para receber pedaços de rede.
+* **Recebimento e Disposição:** Salva os arquivos e gera uma referência em seu log interno `servidor_db.json`.
+* **Download Destrutivo:** Ao entregar o arquivo de volta à rede, apaga completamente o byte da sua memória local e do sistema operacional, inviabilizando clones ou requisições duplicadas.
+
+---
+
+## Canais de Comunicação
+
+O Coordenador atua como maestro central e opera simultaneamente escutando em três canais de comunicação distintos usando o protocolo TCP:
+
+| Canal | Porta | Comunicação | Propósito |
+| :--- | :--- | :--- | :--- |
+| **Controle** | **999** | Serv. $\leftrightarrow$ Coord. | Cadastro (`CAD_SRV`) e descadastro (`DESC_SRV`) de Servidores de Arquivo (*Auto-healing*). |
+| **Dados do Cliente** | **10000** | Cli. $\leftrightarrow$ Coord. | Processamento de requisições de usuário (Upload, Listagem, Download). |
+| **Dados do Servidor** | **8000** | Coord. $\leftrightarrow$ Serv. | Canal dedicado à transmissão de pacotes de dados binários de arquivos. |
+
+
+## Protocolo de Mensagens Customizado
+
+Para organizar as trocas de informação entre os nós da rede, foi construído e documentado um protocolo próprio de comunicação sobre a persistência dos *Sockets*. Abaixo estão as tabelas resumidas dos principais comandos:
+
+### 1. Mensagens de Controle (Porta 999)
+| Comando | Sentido | Descrição |
+| :--- | :--- | :--- |
+| `CAD_SRV` | Serv $\rightarrow$ Coord | Cadastro de um servidor na rede. |
+| `CAD_OK` | Coord $\rightarrow$ Serv | Confirmação de cadastro bem-sucedido ou *Auto-Healing* para recuperação de nós vitais. |
+| `DESC_SRV` | Serv $\rightarrow$ Coord | Descadastro voluntário do servidor da lista de disponíveis. |
+
+### 2. Mensagens do Cliente (Porta 10000)
+| Comando | Sentido | Descrição |
+| :--- | :--- | :--- |
+| `REC_ARQ` | Cli $\rightarrow$ Coord | Cliente solicita o envio de um arquivo acompanhado de seus metadados. |
+| `UPL_READY` | Coord $\rightarrow$ Cli | Confirmação de prontidão (*Handshake*) do coordenador autorizando o *streaming* TCP. |
+| `LIST_ARQ` | Cli $\rightarrow$ Coord | Cliente solicita listar seus arquivos guardados em todos os servidores. |
+| `DOWN_ARQ` | Cli $\rightarrow$ Coord | Solicitação de download referenciando o ID de um arquivo alocado no *cluster*. |
+
+### 3. Mensagens de Armazenamento (Porta 8000)
+| Comando | Sentido | Descrição |
+| :--- | :--- | :--- |
+| `CMD_SAVE` | Coord $\rightarrow$ Serv | Coordenador avisa envio de um arquivo para gravação. |
+| `RDY_RECV` | Serv $\rightarrow$ Coord | Servidor sinaliza que está pronto para engolir os bytes da via de *Transfer*. |
+| `CMD_RECV` | Coord $\rightarrow$ Serv | Coordenador dá a ordem de recuperação indicando qual arquivo deverá ser empurrado de volta para o cliente final. |
+
+
+## Funcionalidades de Destaque
+
+* **Balanceamento de Carga:** O sistema balanceia requisições de upload de forma igualitária entre os servidores cadastrados. Casos de falha na transferência de um nó final punem o servidor errante retirando-o da rotação temporariamente.
+* **Handshake de Sincronização Estrito:** O *streaming* de arquivos não é jogado de forma cega na rede. O cliente e o coordenador trocam checagens; os dados pesados apenas fluem perante o envio do `UPL_READY` (prontidão/handshake), evitando sobrecarga de falhas de buffer.
+* **Autodestruição:** Uma vez que um arquivo recebe o comando de ser baixado de volta, ao finalizar sua extração vinda de um processo `CMD_RECV`, o servidor hospedeiro **apaga a cópia local (formatação seletiva do disco)** garantindo segurança em nuvem (simulação Pull-To-Delete).
+
+---
+
+## Stack Tecnológica
+
+::: {.list-table}
+
+- - **Linguagem & Runtime**
+  - Python 3.13 puro, executado nativamente em ambiente Linux.
+
+- - **Comunicação em Rede**
+  - Integrações com a biblioteca `socket` lidando com o fluxo primário da arquitetura TCP/IP.
+
+- - **Concorrência**
+  - Utilização da biblioteca `threading` garantindo paralelismo, permitindo que vários chamados sejam enfileirados e atendidos sem colapsar os núcleos do modelo.
+
+- - **File System & Persistência**
+  - Utilização padrão das bibliotecas `os` e `sys` integradas a serialização efêmera em dicionários `.json`.
+
+:::

@@ -2,7 +2,8 @@
 title: "MEDCON: Centralizador de Consultas"
 subtitle: "Sistema de agendamento médico em Java Puro com arquitetura em camadas."
 date: "2026-05-12"
-categories: [Acadêmico, Em desenvolvimento, Java, OOP, SQLite]
+image: logo.png
+categories: [Acadêmico, Em desenvolvimento, Java, SQLite]
 about:
   template: solana
   links:
